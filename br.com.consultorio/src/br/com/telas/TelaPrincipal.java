@@ -4,8 +4,6 @@
  */
 package br.com.telas;
 
-
-
 /**
  *
  * @author gabri
@@ -37,6 +35,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         btnhistoriaodontologica = new javax.swing.JButton();
         btnacompanhamento = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        btnodonto = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -103,12 +102,20 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnodonto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/icons8-dentes-100.png"))); // NOI18N
+        btnodonto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnodontoActionPerformed(evt);
+            }
+        });
+
         Desktop.setLayer(btnequipes, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(BTNATENDIMENTO, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btncadastro, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnhistoriaodontologica, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnacompanhamento, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        Desktop.setLayer(btnodonto, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout DesktopLayout = new javax.swing.GroupLayout(Desktop);
         Desktop.setLayout(DesktopLayout);
@@ -118,13 +125,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btncadastro)
-                    .addComponent(BTNATENDIMENTO)
-                    .addGroup(DesktopLayout.createSequentialGroup()
-                        .addComponent(btnequipes)
-                        .addGap(68, 68, 68)
-                        .addComponent(jButton1))
                     .addComponent(btnhistoriaodontologica)
-                    .addComponent(btnacompanhamento))
+                    .addComponent(btnacompanhamento)
+                    .addGroup(DesktopLayout.createSequentialGroup()
+                        .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnequipes)
+                            .addComponent(BTNATENDIMENTO))
+                        .addGap(68, 68, 68)
+                        .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnodonto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(1347, Short.MAX_VALUE))
         );
         DesktopLayout.setVerticalGroup(
@@ -135,14 +145,19 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(btnequipes)
                     .addComponent(jButton1))
                 .addGap(68, 68, 68)
-                .addComponent(BTNATENDIMENTO)
-                .addGap(68, 68, 68)
-                .addComponent(btncadastro)
-                .addGap(67, 67, 67)
-                .addComponent(btnhistoriaodontologica)
-                .addGap(67, 67, 67)
-                .addComponent(btnacompanhamento)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(DesktopLayout.createSequentialGroup()
+                        .addComponent(btnodonto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(780, 780, 780))
+                    .addGroup(DesktopLayout.createSequentialGroup()
+                        .addComponent(BTNATENDIMENTO)
+                        .addGap(80, 80, 80)
+                        .addComponent(btncadastro)
+                        .addGap(83, 83, 83)
+                        .addComponent(btnhistoriaodontologica)
+                        .addGap(81, 81, 81)
+                        .addComponent(btnacompanhamento)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
@@ -211,7 +226,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jLabel7))
-                .addGap(388, 536, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(Desktop)
         );
 
@@ -265,22 +280,22 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void btncadastroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncadastroActionPerformed
         // TODO add your handling code here:
-       
+
         TelaCadastro1 cadastro = new TelaCadastro1();
         cadastro.setVisible(true);
         Desktop.add(cadastro);
-        
-        
+
+
     }//GEN-LAST:event_btncadastroActionPerformed
 
     private void btnhistoriaodontologicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnhistoriaodontologicaActionPerformed
         // TODO add your handling code here:
-         
+
         TelaHistoriaOdontologica hist_odont = new TelaHistoriaOdontologica();
         hist_odont.setVisible(true);
         Desktop.add(hist_odont);
-       
-        
+
+
     }//GEN-LAST:event_btnhistoriaodontologicaActionPerformed
 
     private void btnacompanhamentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnacompanhamentoActionPerformed
@@ -303,6 +318,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
         conta.setVisible(true);
         Desktop.add(conta);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void btnodontoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnodontoActionPerformed
+        // TODO add your handling code here:
+        TelaOdontograma dente = new TelaOdontograma();
+        dente.setVisible(true);
+        Desktop.add(dente);
+    }//GEN-LAST:event_btnodontoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -346,6 +368,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     public static javax.swing.JButton btncadastro;
     private javax.swing.JButton btnequipes;
     private javax.swing.JButton btnhistoriaodontologica;
+    private javax.swing.JButton btnodonto;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

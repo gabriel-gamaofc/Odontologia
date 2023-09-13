@@ -169,7 +169,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn2);
-        btn2.setBounds(110, 170, 50, 23);
+        btn2.setBounds(110, 170, 50, 29);
 
         btn3.setText("jButton1");
         btn3.addActionListener(new java.awt.event.ActionListener() {
@@ -178,7 +178,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn3);
-        btn3.setBounds(110, 200, 50, 23);
+        btn3.setBounds(110, 200, 50, 29);
 
         comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
         comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
@@ -187,7 +187,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(comboBoxCores);
-        comboBoxCores.setBounds(10, 20, 150, 23);
+        comboBoxCores.setBounds(10, 20, 150, 29);
 
         btn4.setText("jButton1");
         btn4.addActionListener(new java.awt.event.ActionListener() {
@@ -205,7 +205,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn5);
-        btn5.setBounds(170, 170, 50, 23);
+        btn5.setBounds(170, 170, 50, 29);
 
         btn6.setText("jButton1");
         btn6.addActionListener(new java.awt.event.ActionListener() {
@@ -214,7 +214,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn6);
-        btn6.setBounds(170, 200, 50, 23);
+        btn6.setBounds(170, 200, 50, 29);
 
         btn7.setText("jButton1");
         btn7.addActionListener(new java.awt.event.ActionListener() {
@@ -232,7 +232,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn8);
-        btn8.setBounds(230, 170, 50, 23);
+        btn8.setBounds(230, 170, 50, 29);
 
         btn9.setText("jButton1");
         btn9.addActionListener(new java.awt.event.ActionListener() {
@@ -241,7 +241,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn9);
-        btn9.setBounds(230, 200, 50, 23);
+        btn9.setBounds(230, 200, 50, 29);
 
         btn10.setText("jButton1");
         btn10.addActionListener(new java.awt.event.ActionListener() {
@@ -259,7 +259,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn11);
-        btn11.setBounds(290, 170, 50, 23);
+        btn11.setBounds(290, 170, 50, 29);
 
         btn12.setText("jButton1");
         btn12.addActionListener(new java.awt.event.ActionListener() {
@@ -268,7 +268,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn12);
-        btn12.setBounds(290, 200, 50, 23);
+        btn12.setBounds(290, 200, 50, 29);
 
         btn13.setText("jButton1");
         btn13.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -291,7 +291,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn14);
-        btn14.setBounds(350, 170, 50, 23);
+        btn14.setBounds(350, 170, 50, 29);
 
         btn15.setText("jButton1");
         btn15.addActionListener(new java.awt.event.ActionListener() {
@@ -300,7 +300,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn15);
-        btn15.setBounds(350, 200, 50, 23);
+        btn15.setBounds(350, 200, 50, 29);
 
         btn16.setText("jButton1");
         btn16.addActionListener(new java.awt.event.ActionListener() {
@@ -318,7 +318,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn17);
-        btn17.setBounds(410, 170, 50, 23);
+        btn17.setBounds(410, 170, 50, 29);
 
         btn18.setText("jButton1");
         btn18.addActionListener(new java.awt.event.ActionListener() {
@@ -327,7 +327,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn18);
-        btn18.setBounds(410, 200, 50, 23);
+        btn18.setBounds(410, 200, 50, 29);
 
         btn19.setText("jButton1");
         btn19.addActionListener(new java.awt.event.ActionListener() {
@@ -345,7 +345,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn20);
-        btn20.setBounds(470, 170, 50, 23);
+        btn20.setBounds(470, 170, 50, 29);
 
         btn21.setText("jButton1");
         btn21.addActionListener(new java.awt.event.ActionListener() {
@@ -354,7 +354,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn21);
-        btn21.setBounds(470, 200, 50, 23);
+        btn21.setBounds(470, 200, 50, 29);
 
         btn22.setText("jButton1");
         btn22.addActionListener(new java.awt.event.ActionListener() {
@@ -372,7 +372,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn23);
-        btn23.setBounds(530, 170, 50, 23);
+        btn23.setBounds(530, 170, 50, 29);
 
         btn24.setText("jButton1");
         btn24.addActionListener(new java.awt.event.ActionListener() {
@@ -381,7 +381,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn24);
-        btn24.setBounds(530, 200, 50, 23);
+        btn24.setBounds(530, 200, 50, 29);
 
         btn25.setText("jButton1");
         btn25.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -404,7 +404,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn26);
-        btn26.setBounds(110, 420, 50, 23);
+        btn26.setBounds(110, 420, 50, 29);
 
         btn27.setText("jButton1");
         btn27.addActionListener(new java.awt.event.ActionListener() {
@@ -413,7 +413,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn27);
-        btn27.setBounds(110, 450, 50, 23);
+        btn27.setBounds(110, 450, 50, 29);
 
         btn28.setText("jButton1");
         btn28.addActionListener(new java.awt.event.ActionListener() {
@@ -431,7 +431,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn29);
-        btn29.setBounds(170, 420, 50, 23);
+        btn29.setBounds(170, 420, 50, 29);
 
         btn30.setText("jButton1");
         btn30.addActionListener(new java.awt.event.ActionListener() {
@@ -440,7 +440,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn30);
-        btn30.setBounds(170, 450, 50, 23);
+        btn30.setBounds(170, 450, 50, 29);
 
         btn31.setText("jButton1");
         btn31.addActionListener(new java.awt.event.ActionListener() {
@@ -458,7 +458,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn32);
-        btn32.setBounds(230, 420, 50, 23);
+        btn32.setBounds(230, 420, 50, 29);
 
         btn33.setText("jButton1");
         btn33.addActionListener(new java.awt.event.ActionListener() {
@@ -467,7 +467,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn33);
-        btn33.setBounds(230, 450, 50, 23);
+        btn33.setBounds(230, 450, 50, 29);
 
         btn34.setText("jButton1");
         btn34.addActionListener(new java.awt.event.ActionListener() {
@@ -485,7 +485,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn35);
-        btn35.setBounds(290, 420, 50, 23);
+        btn35.setBounds(290, 420, 50, 29);
 
         btn36.setText("jButton1");
         btn36.addActionListener(new java.awt.event.ActionListener() {
@@ -494,7 +494,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn36);
-        btn36.setBounds(290, 450, 50, 23);
+        btn36.setBounds(290, 450, 50, 29);
 
         btn37.setText("jButton1");
         btn37.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -517,7 +517,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn38);
-        btn38.setBounds(350, 420, 50, 23);
+        btn38.setBounds(350, 420, 50, 29);
 
         btn39.setText("jButton1");
         btn39.addActionListener(new java.awt.event.ActionListener() {
@@ -526,7 +526,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn39);
-        btn39.setBounds(350, 450, 50, 23);
+        btn39.setBounds(350, 450, 50, 29);
 
         btn40.setText("jButton1");
         btn40.addActionListener(new java.awt.event.ActionListener() {
@@ -544,7 +544,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn41);
-        btn41.setBounds(410, 420, 50, 23);
+        btn41.setBounds(410, 420, 50, 29);
 
         btn42.setText("jButton1");
         btn42.addActionListener(new java.awt.event.ActionListener() {
@@ -553,7 +553,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn42);
-        btn42.setBounds(410, 450, 50, 23);
+        btn42.setBounds(410, 450, 50, 29);
 
         btn43.setText("jButton1");
         btn43.addActionListener(new java.awt.event.ActionListener() {
@@ -571,7 +571,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn44);
-        btn44.setBounds(470, 420, 50, 23);
+        btn44.setBounds(470, 420, 50, 29);
 
         btn45.setText("jButton1");
         btn45.addActionListener(new java.awt.event.ActionListener() {
@@ -580,7 +580,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn45);
-        btn45.setBounds(470, 450, 50, 23);
+        btn45.setBounds(470, 450, 50, 29);
 
         btn46.setText("jButton1");
         btn46.addActionListener(new java.awt.event.ActionListener() {
@@ -598,7 +598,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn47);
-        btn47.setBounds(530, 420, 50, 23);
+        btn47.setBounds(530, 420, 50, 29);
 
         btn48.setText("jButton1");
         btn48.addActionListener(new java.awt.event.ActionListener() {
@@ -607,7 +607,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn48);
-        btn48.setBounds(530, 450, 50, 23);
+        btn48.setBounds(530, 450, 50, 29);
 
         btn49.setText("jButton1");
         btn49.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -630,7 +630,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn50);
-        btn50.setBounds(600, 170, 50, 23);
+        btn50.setBounds(600, 170, 50, 29);
 
         btn51.setText("jButton1");
         btn51.addActionListener(new java.awt.event.ActionListener() {
@@ -639,7 +639,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn51);
-        btn51.setBounds(600, 200, 50, 23);
+        btn51.setBounds(600, 200, 50, 29);
 
         btn52.setText("jButton1");
         btn52.addActionListener(new java.awt.event.ActionListener() {
@@ -657,7 +657,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn53);
-        btn53.setBounds(660, 170, 50, 23);
+        btn53.setBounds(660, 170, 50, 29);
 
         btn54.setText("jButton1");
         btn54.addActionListener(new java.awt.event.ActionListener() {
@@ -666,7 +666,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn54);
-        btn54.setBounds(660, 200, 50, 23);
+        btn54.setBounds(660, 200, 50, 29);
 
         btn55.setText("jButton1");
         btn55.addActionListener(new java.awt.event.ActionListener() {
@@ -684,7 +684,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn56);
-        btn56.setBounds(720, 170, 50, 23);
+        btn56.setBounds(720, 170, 50, 29);
 
         btn57.setText("jButton1");
         btn57.addActionListener(new java.awt.event.ActionListener() {
@@ -693,7 +693,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn57);
-        btn57.setBounds(720, 200, 50, 23);
+        btn57.setBounds(720, 200, 50, 29);
 
         btn58.setText("jButton1");
         btn58.addActionListener(new java.awt.event.ActionListener() {
@@ -711,7 +711,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn59);
-        btn59.setBounds(780, 170, 50, 23);
+        btn59.setBounds(780, 170, 50, 29);
 
         btn60.setText("jButton1");
         btn60.addActionListener(new java.awt.event.ActionListener() {
@@ -720,7 +720,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn60);
-        btn60.setBounds(780, 200, 50, 23);
+        btn60.setBounds(780, 200, 50, 29);
 
         btn61.setText("jButton1");
         btn61.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -743,7 +743,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn62);
-        btn62.setBounds(840, 170, 50, 23);
+        btn62.setBounds(840, 170, 50, 29);
 
         btn63.setText("jButton1");
         btn63.addActionListener(new java.awt.event.ActionListener() {
@@ -752,7 +752,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn63);
-        btn63.setBounds(840, 200, 50, 23);
+        btn63.setBounds(840, 200, 50, 29);
 
         btn64.setText("jButton1");
         btn64.addActionListener(new java.awt.event.ActionListener() {
@@ -770,7 +770,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn65);
-        btn65.setBounds(900, 170, 50, 23);
+        btn65.setBounds(900, 170, 50, 29);
 
         btn66.setText("jButton1");
         btn66.addActionListener(new java.awt.event.ActionListener() {
@@ -779,7 +779,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn66);
-        btn66.setBounds(900, 200, 50, 23);
+        btn66.setBounds(900, 200, 50, 29);
 
         btn67.setText("jButton1");
         btn67.addActionListener(new java.awt.event.ActionListener() {
@@ -797,7 +797,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn68);
-        btn68.setBounds(960, 170, 50, 23);
+        btn68.setBounds(960, 170, 50, 29);
 
         btn69.setText("jButton1");
         btn69.addActionListener(new java.awt.event.ActionListener() {
@@ -806,7 +806,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn69);
-        btn69.setBounds(960, 200, 50, 23);
+        btn69.setBounds(960, 200, 50, 29);
 
         btn70.setText("jButton1");
         btn70.addActionListener(new java.awt.event.ActionListener() {
@@ -824,7 +824,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn71);
-        btn71.setBounds(1020, 170, 50, 23);
+        btn71.setBounds(1020, 170, 50, 29);
 
         btn72.setText("jButton1");
         btn72.addActionListener(new java.awt.event.ActionListener() {
@@ -833,7 +833,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn72);
-        btn72.setBounds(1020, 200, 50, 23);
+        btn72.setBounds(1020, 200, 50, 29);
 
         btn73.setText("jButton1");
         btn73.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -856,7 +856,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn74);
-        btn74.setBounds(600, 420, 50, 23);
+        btn74.setBounds(600, 420, 50, 29);
 
         btn75.setText("jButton1");
         btn75.addActionListener(new java.awt.event.ActionListener() {
@@ -865,7 +865,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn75);
-        btn75.setBounds(600, 450, 50, 23);
+        btn75.setBounds(600, 450, 50, 29);
 
         btn76.setText("jButton1");
         btn76.addActionListener(new java.awt.event.ActionListener() {
@@ -883,7 +883,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn77);
-        btn77.setBounds(660, 420, 50, 23);
+        btn77.setBounds(660, 420, 50, 29);
 
         btn78.setText("jButton1");
         btn78.addActionListener(new java.awt.event.ActionListener() {
@@ -892,7 +892,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn78);
-        btn78.setBounds(660, 450, 50, 23);
+        btn78.setBounds(660, 450, 50, 29);
 
         btn79.setText("jButton1");
         btn79.addActionListener(new java.awt.event.ActionListener() {
@@ -910,7 +910,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn80);
-        btn80.setBounds(720, 420, 50, 23);
+        btn80.setBounds(720, 420, 50, 29);
 
         btn81.setText("jButton1");
         btn81.addActionListener(new java.awt.event.ActionListener() {
@@ -919,7 +919,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn81);
-        btn81.setBounds(720, 450, 50, 23);
+        btn81.setBounds(720, 450, 50, 29);
 
         btn82.setText("jButton1");
         btn82.addActionListener(new java.awt.event.ActionListener() {
@@ -937,7 +937,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn83);
-        btn83.setBounds(780, 420, 50, 23);
+        btn83.setBounds(780, 420, 50, 29);
 
         btn84.setText("jButton1");
         btn84.addActionListener(new java.awt.event.ActionListener() {
@@ -946,7 +946,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn84);
-        btn84.setBounds(780, 450, 50, 23);
+        btn84.setBounds(780, 450, 50, 29);
 
         btn85.setText("jButton1");
         btn85.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -969,7 +969,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn86);
-        btn86.setBounds(840, 420, 50, 23);
+        btn86.setBounds(840, 420, 50, 29);
 
         btn87.setText("jButton1");
         btn87.addActionListener(new java.awt.event.ActionListener() {
@@ -978,7 +978,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn87);
-        btn87.setBounds(840, 450, 50, 23);
+        btn87.setBounds(840, 450, 50, 29);
 
         btn88.setText("jButton1");
         btn88.addActionListener(new java.awt.event.ActionListener() {
@@ -996,7 +996,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn89);
-        btn89.setBounds(900, 420, 50, 23);
+        btn89.setBounds(900, 420, 50, 29);
 
         btn90.setText("jButton1");
         btn90.addActionListener(new java.awt.event.ActionListener() {
@@ -1005,7 +1005,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn90);
-        btn90.setBounds(900, 450, 50, 23);
+        btn90.setBounds(900, 450, 50, 29);
 
         btn91.setText("jButton1");
         btn91.addActionListener(new java.awt.event.ActionListener() {
@@ -1023,7 +1023,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn92);
-        btn92.setBounds(960, 420, 50, 23);
+        btn92.setBounds(960, 420, 50, 29);
 
         btn93.setText("jButton1");
         btn93.addActionListener(new java.awt.event.ActionListener() {
@@ -1032,7 +1032,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn93);
-        btn93.setBounds(960, 450, 50, 23);
+        btn93.setBounds(960, 450, 50, 29);
 
         btn94.setText("jButton1");
         btn94.addActionListener(new java.awt.event.ActionListener() {
@@ -1050,7 +1050,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn95);
-        btn95.setBounds(1020, 420, 50, 23);
+        btn95.setBounds(1020, 420, 50, 29);
 
         btn96.setText("jButton1");
         btn96.addActionListener(new java.awt.event.ActionListener() {
@@ -1059,7 +1059,7 @@ public class odontograma extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn96);
-        btn96.setBounds(1020, 450, 50, 23);
+        btn96.setBounds(1020, 450, 50, 29);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
