@@ -321,7 +321,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void btnodontoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnodontoActionPerformed
         // TODO add your handling code here:
-        TelaOdontograma dente = new TelaOdontograma();
+        TelaOdontograma_sexta dente = new TelaOdontograma_sexta();
         dente.setVisible(true);
         Desktop.add(dente);
     }//GEN-LAST:event_btnodontoActionPerformed
