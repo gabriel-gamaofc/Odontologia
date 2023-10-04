@@ -6,8 +6,6 @@ package br.com.telas;
 
 import Controll.Login_control;
 
-
-
 /**
  *
  * @author Gabriel
@@ -20,16 +18,18 @@ public class TelaLogin_2 extends javax.swing.JFrame {
     public TelaLogin_2() {
         initComponents();
     }
-    
-    private void chamado_control_logar(){
+
+    private void chamado_control_logar() {
         Login_control x = new Login_control();
         x.receber_model();
         this.dispose();
         //System.out.println(x.usu);
-        
-       
-        
-        
+
+    }
+    private void abrir_cad(){
+        Cadastro_principal cadastro = new Cadastro_principal();
+        cadastro.setVisible(true);
+        this.dispose();
     }
 
     /**
@@ -50,7 +50,7 @@ public class TelaLogin_2 extends javax.swing.JFrame {
         txtemail_log = new javax.swing.JTextField();
         txtsenha_log = new javax.swing.JPasswordField();
         btnlogar = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btncad_login = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
@@ -104,10 +104,15 @@ public class TelaLogin_2 extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
-        jButton2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Cadastro");
+        btncad_login.setBackground(new java.awt.Color(0, 0, 0));
+        btncad_login.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        btncad_login.setForeground(new java.awt.Color(255, 255, 255));
+        btncad_login.setText("Cadastro");
+        btncad_login.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btncad_loginActionPerformed(evt);
+            }
+        });
 
         jButton3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jButton3.setText("Esqueci a senha");
@@ -139,14 +144,14 @@ public class TelaLogin_2 extends javax.swing.JFrame {
                                 .addComponent(btnlogar))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(224, 224, 224)
-                        .addComponent(jButton2))
+                        .addComponent(btncad_login))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(190, 190, 190)
                         .addComponent(jLabel3))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(130, 130, 130)
                         .addComponent(labellogin)))
-                .addContainerGap(258, Short.MAX_VALUE))
+                .addContainerGap(213, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -168,7 +173,7 @@ public class TelaLogin_2 extends javax.swing.JFrame {
                 .addGap(39, 39, 39)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
+                .addComponent(btncad_login)
                 .addContainerGap(170, Short.MAX_VALUE))
         );
 
@@ -204,6 +209,11 @@ public class TelaLogin_2 extends javax.swing.JFrame {
         // TODO add your handling code here:
         chamado_control_logar();
     }//GEN-LAST:event_btnlogarActionPerformed
+
+    private void btncad_loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncad_loginActionPerformed
+        // TODO add your handling code here:
+        abrir_cad();
+    }//GEN-LAST:event_btncad_loginActionPerformed
 
     /**
      * @param args the command line arguments
@@ -241,8 +251,8 @@ public class TelaLogin_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btncad_login;
     private javax.swing.JButton btnlogar;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

@@ -4,19 +4,25 @@
  */
 package br.com.telas;
 
+import static br.com.telas.TelaPrincipal.Desktop;
+import java.awt.CardLayout;
 import java.awt.Color;
+import javax.swing.JLayeredPane;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author Gabriel
  */
-public class TelaOdontograma extends javax.swing.JInternalFrame {
+public class TelaOdontograma1 extends javax.swing.JInternalFrame {
 
     /**
-     * Creates new form TelaOdontograma
+     * Creates new form TelaOdontograma1
      */
-    public TelaOdontograma() {
+    public TelaOdontograma1() {
         initComponents();
+        setLocation(400, 150);
+
     }
 
     /**
@@ -28,54 +34,13 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        comboBoxCores = new javax.swing.JComboBox<>();
-        btn1 = new javax.swing.JButton();
-        btn2 = new javax.swing.JButton();
-        btn3 = new javax.swing.JButton();
-        btn4 = new javax.swing.JButton();
-        btn5 = new javax.swing.JButton();
-        btn6 = new javax.swing.JButton();
-        btn7 = new javax.swing.JButton();
-        btn8 = new javax.swing.JButton();
-        btn9 = new javax.swing.JButton();
-        btn10 = new javax.swing.JButton();
-        btn11 = new javax.swing.JButton();
-        btn12 = new javax.swing.JButton();
-        btn13 = new javax.swing.JButton();
-        btn14 = new javax.swing.JButton();
-        btn15 = new javax.swing.JButton();
-        btn16 = new javax.swing.JButton();
-        btn17 = new javax.swing.JButton();
-        btn18 = new javax.swing.JButton();
-        btn19 = new javax.swing.JButton();
-        btn20 = new javax.swing.JButton();
-        btn21 = new javax.swing.JButton();
-        btn22 = new javax.swing.JButton();
-        btn23 = new javax.swing.JButton();
-        btn24 = new javax.swing.JButton();
-        btn49 = new javax.swing.JButton();
-        btn50 = new javax.swing.JButton();
-        btn51 = new javax.swing.JButton();
-        btn52 = new javax.swing.JButton();
-        btn53 = new javax.swing.JButton();
-        btn54 = new javax.swing.JButton();
-        btn55 = new javax.swing.JButton();
-        btn56 = new javax.swing.JButton();
-        btn57 = new javax.swing.JButton();
-        btn58 = new javax.swing.JButton();
-        btn59 = new javax.swing.JButton();
-        btn60 = new javax.swing.JButton();
-        btn61 = new javax.swing.JButton();
-        btn62 = new javax.swing.JButton();
-        btn63 = new javax.swing.JButton();
-        btn64 = new javax.swing.JButton();
-        btn65 = new javax.swing.JButton();
-        btn66 = new javax.swing.JButton();
-        btn67 = new javax.swing.JButton();
-        btn68 = new javax.swing.JButton();
-        btn69 = new javax.swing.JButton();
-        btn25 = new javax.swing.JButton();
         btn26 = new javax.swing.JButton();
+        btnteste = new javax.swing.JPanel();
+        btn1 = new javax.swing.JButton();
+        btn3 = new javax.swing.JButton();
+        btn6 = new javax.swing.JButton();
+        btn5 = new javax.swing.JButton();
+        btn70 = new javax.swing.JButton();
         btn27 = new javax.swing.JButton();
         btn28 = new javax.swing.JButton();
         btn29 = new javax.swing.JButton();
@@ -85,52 +50,110 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
         btn33 = new javax.swing.JButton();
         btn34 = new javax.swing.JButton();
         btn35 = new javax.swing.JButton();
+        btn13 = new javax.swing.JButton();
         btn36 = new javax.swing.JButton();
+        btn14 = new javax.swing.JButton();
         btn37 = new javax.swing.JButton();
+        btn15 = new javax.swing.JButton();
         btn38 = new javax.swing.JButton();
+        btn16 = new javax.swing.JButton();
         btn39 = new javax.swing.JButton();
+        btn17 = new javax.swing.JButton();
         btn40 = new javax.swing.JButton();
+        btn18 = new javax.swing.JButton();
         btn41 = new javax.swing.JButton();
+        btn19 = new javax.swing.JButton();
+        btn20 = new javax.swing.JButton();
+        btn21 = new javax.swing.JButton();
+        btn22 = new javax.swing.JButton();
+        comboBoxCores = new javax.swing.JComboBox<>();
+        btn4 = new javax.swing.JButton();
+        btn7 = new javax.swing.JButton();
+        btn8 = new javax.swing.JButton();
+        btn9 = new javax.swing.JButton();
+        btn10 = new javax.swing.JButton();
+        btn11 = new javax.swing.JButton();
+        btn12 = new javax.swing.JButton();
         btn42 = new javax.swing.JButton();
         btn43 = new javax.swing.JButton();
         btn44 = new javax.swing.JButton();
         btn45 = new javax.swing.JButton();
+        btn23 = new javax.swing.JButton();
         btn46 = new javax.swing.JButton();
+        btn24 = new javax.swing.JButton();
         btn47 = new javax.swing.JButton();
+        btn49 = new javax.swing.JButton();
         btn48 = new javax.swing.JButton();
+        btn50 = new javax.swing.JButton();
         btn73 = new javax.swing.JButton();
+        btn51 = new javax.swing.JButton();
         btn74 = new javax.swing.JButton();
+        btn52 = new javax.swing.JButton();
         btn75 = new javax.swing.JButton();
+        btn53 = new javax.swing.JButton();
+        btn54 = new javax.swing.JButton();
+        btn55 = new javax.swing.JButton();
+        btn56 = new javax.swing.JButton();
         btn76 = new javax.swing.JButton();
         btn77 = new javax.swing.JButton();
         btn78 = new javax.swing.JButton();
         btn79 = new javax.swing.JButton();
+        btn57 = new javax.swing.JButton();
         btn80 = new javax.swing.JButton();
+        btn58 = new javax.swing.JButton();
         btn81 = new javax.swing.JButton();
+        btn59 = new javax.swing.JButton();
         btn82 = new javax.swing.JButton();
+        btn60 = new javax.swing.JButton();
         btn83 = new javax.swing.JButton();
+        btn61 = new javax.swing.JButton();
         btn84 = new javax.swing.JButton();
+        btn62 = new javax.swing.JButton();
         btn85 = new javax.swing.JButton();
+        btn63 = new javax.swing.JButton();
+        btn64 = new javax.swing.JButton();
+        btn65 = new javax.swing.JButton();
+        btn66 = new javax.swing.JButton();
         btn86 = new javax.swing.JButton();
         btn87 = new javax.swing.JButton();
         btn88 = new javax.swing.JButton();
         btn89 = new javax.swing.JButton();
+        btn67 = new javax.swing.JButton();
         btn90 = new javax.swing.JButton();
+        btn68 = new javax.swing.JButton();
         btn91 = new javax.swing.JButton();
+        btn69 = new javax.swing.JButton();
         btn92 = new javax.swing.JButton();
+        btn25 = new javax.swing.JButton();
         btn93 = new javax.swing.JButton();
 
         setClosable(true);
         setIconifiable(true);
 
-        comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
-        comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
+        btn26.setText("jButton1");
+        btn26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                comboBoxCoresActionPerformed(evt);
+                btn26ActionPerformed(evt);
             }
         });
 
-        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/dente-001-removebg-preview.png"))); // NOI18N
+        btnteste.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnteste.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                btntesteAncestorAdded(evt);
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
+        btnteste.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btntesteMouseClicked(evt);
+            }
+        });
+
+        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-SUPERIOR parte de cima.png"))); // NOI18N
         btn1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 btn1MouseEntered(evt);
@@ -142,347 +165,71 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
-        btn2.setText("jButton1");
-        btn2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn2ActionPerformed(evt);
-            }
-        });
-
-        btn3.setText("jButton1");
+        btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Laranja/D18-LARANJA-INFERIOR p2.png"))); // NOI18N
         btn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn3ActionPerformed(evt);
             }
         });
 
-        btn4.setText("jButton1");
-        btn4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn4ActionPerformed(evt);
-            }
-        });
-
-        btn5.setText("jButton1");
-        btn5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn5ActionPerformed(evt);
-            }
-        });
-
-        btn6.setText("jButton1");
+        btn6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-SUPERIOR parte 2.png"))); // NOI18N
         btn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn6ActionPerformed(evt);
             }
         });
 
-        btn7.setText("jButton1");
-        btn7.addActionListener(new java.awt.event.ActionListener() {
+        btn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Laranja/D18-LARANJA-INFERIOR p1.png"))); // NOI18N
+        btn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn7ActionPerformed(evt);
+                btn5ActionPerformed(evt);
             }
         });
 
-        btn8.setText("jButton1");
-        btn8.addActionListener(new java.awt.event.ActionListener() {
+        btn70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Amarelo/D18-AMARELO-MEIO.png"))); // NOI18N
+        btn70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn8ActionPerformed(evt);
+                btn70ActionPerformed(evt);
             }
         });
 
-        btn9.setText("jButton1");
-        btn9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn9ActionPerformed(evt);
-            }
-        });
-
-        btn10.setText("jButton1");
-        btn10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn10ActionPerformed(evt);
-            }
-        });
-
-        btn11.setText("jButton1");
-        btn11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn11ActionPerformed(evt);
-            }
-        });
-
-        btn12.setText("jButton1");
-        btn12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn12ActionPerformed(evt);
-            }
-        });
-
-        btn13.setText("jButton1");
-        btn13.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn13MouseEntered(evt);
-            }
-        });
-        btn13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn13ActionPerformed(evt);
-            }
-        });
-
-        btn14.setText("jButton1");
-        btn14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn14ActionPerformed(evt);
-            }
-        });
-
-        btn15.setText("jButton1");
-        btn15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn15ActionPerformed(evt);
-            }
-        });
-
-        btn16.setText("jButton1");
-        btn16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn16ActionPerformed(evt);
-            }
-        });
-
-        btn17.setText("jButton1");
-        btn17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn17ActionPerformed(evt);
-            }
-        });
-
-        btn18.setText("jButton1");
-        btn18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn18ActionPerformed(evt);
-            }
-        });
-
-        btn19.setText("jButton1");
-        btn19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn19ActionPerformed(evt);
-            }
-        });
-
-        btn20.setText("jButton1");
-        btn20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn20ActionPerformed(evt);
-            }
-        });
-
-        btn21.setText("jButton1");
-        btn21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn21ActionPerformed(evt);
-            }
-        });
-
-        btn22.setText("jButton1");
-        btn22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn22ActionPerformed(evt);
-            }
-        });
-
-        btn23.setText("jButton1");
-        btn23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn23ActionPerformed(evt);
-            }
-        });
-
-        btn24.setText("jButton1");
-        btn24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn24ActionPerformed(evt);
-            }
-        });
-
-        btn49.setText("jButton1");
-        btn49.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn49MouseEntered(evt);
-            }
-        });
-        btn49.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn49ActionPerformed(evt);
-            }
-        });
-
-        btn50.setText("jButton1");
-        btn50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn50ActionPerformed(evt);
-            }
-        });
-
-        btn51.setText("jButton1");
-        btn51.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn51ActionPerformed(evt);
-            }
-        });
-
-        btn52.setText("jButton1");
-        btn52.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn52ActionPerformed(evt);
-            }
-        });
-
-        btn53.setText("jButton1");
-        btn53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn53ActionPerformed(evt);
-            }
-        });
-
-        btn54.setText("jButton1");
-        btn54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn54ActionPerformed(evt);
-            }
-        });
-
-        btn55.setText("jButton1");
-        btn55.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn55ActionPerformed(evt);
-            }
-        });
-
-        btn56.setText("jButton1");
-        btn56.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn56ActionPerformed(evt);
-            }
-        });
-
-        btn57.setText("jButton1");
-        btn57.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn57ActionPerformed(evt);
-            }
-        });
-
-        btn58.setText("jButton1");
-        btn58.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn58ActionPerformed(evt);
-            }
-        });
-
-        btn59.setText("jButton1");
-        btn59.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn59ActionPerformed(evt);
-            }
-        });
-
-        btn60.setText("jButton1");
-        btn60.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn60ActionPerformed(evt);
-            }
-        });
-
-        btn61.setText("jButton1");
-        btn61.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn61MouseEntered(evt);
-            }
-        });
-        btn61.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn61ActionPerformed(evt);
-            }
-        });
-
-        btn62.setText("jButton1");
-        btn62.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn62ActionPerformed(evt);
-            }
-        });
-
-        btn63.setText("jButton1");
-        btn63.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn63ActionPerformed(evt);
-            }
-        });
-
-        btn64.setText("jButton1");
-        btn64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn64ActionPerformed(evt);
-            }
-        });
-
-        btn65.setText("jButton1");
-        btn65.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn65ActionPerformed(evt);
-            }
-        });
-
-        btn66.setText("jButton1");
-        btn66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn66ActionPerformed(evt);
-            }
-        });
-
-        btn67.setText("jButton1");
-        btn67.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn67ActionPerformed(evt);
-            }
-        });
-
-        btn68.setText("jButton1");
-        btn68.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn68ActionPerformed(evt);
-            }
-        });
-
-        btn69.setText("jButton1");
-        btn69.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn69ActionPerformed(evt);
-            }
-        });
-
-        btn25.setText("jButton1");
-        btn25.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn25MouseEntered(evt);
-            }
-        });
-        btn25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn25ActionPerformed(evt);
-            }
-        });
-
-        btn26.setText("jButton1");
-        btn26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn26ActionPerformed(evt);
-            }
-        });
+        javax.swing.GroupLayout btntesteLayout = new javax.swing.GroupLayout(btnteste);
+        btnteste.setLayout(btntesteLayout);
+        btntesteLayout.setHorizontalGroup(
+            btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btntesteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btn3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btntesteLayout.createSequentialGroup()
+                        .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btn6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap())))
+            .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btntesteLayout.createSequentialGroup()
+                    .addComponent(btn70, javax.swing.GroupLayout.PREFERRED_SIZE, 109, Short.MAX_VALUE)
+                    .addContainerGap()))
+        );
+        btntesteLayout.setVerticalGroup(
+            btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(btntesteLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn6)
+                .addGap(72, 72, 72)
+                .addComponent(btn3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn5)
+                .addContainerGap(24, Short.MAX_VALUE))
+            .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(btntesteLayout.createSequentialGroup()
+                    .addGap(142, 142, 142)
+                    .addComponent(btn70, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(185, Short.MAX_VALUE)))
+        );
 
         btn27.setText("jButton1");
         btn27.addActionListener(new java.awt.event.ActionListener() {
@@ -547,10 +294,29 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn13.setText("jButton1");
+        btn13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn13MouseEntered(evt);
+            }
+        });
+        btn13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn13ActionPerformed(evt);
+            }
+        });
+
         btn36.setText("jButton1");
         btn36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn36ActionPerformed(evt);
+            }
+        });
+
+        btn14.setText("jButton1");
+        btn14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn14ActionPerformed(evt);
             }
         });
 
@@ -566,10 +332,24 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn15.setText("jButton1");
+        btn15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn15ActionPerformed(evt);
+            }
+        });
+
         btn38.setText("jButton1");
         btn38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn38ActionPerformed(evt);
+            }
+        });
+
+        btn16.setText("jButton1");
+        btn16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn16ActionPerformed(evt);
             }
         });
 
@@ -580,6 +360,13 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn17.setText("jButton1");
+        btn17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn17ActionPerformed(evt);
+            }
+        });
+
         btn40.setText("jButton1");
         btn40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -587,10 +374,101 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn18.setText("jButton1");
+        btn18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn18ActionPerformed(evt);
+            }
+        });
+
         btn41.setText("jButton1");
         btn41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn41ActionPerformed(evt);
+            }
+        });
+
+        btn19.setText("jButton1");
+        btn19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn19ActionPerformed(evt);
+            }
+        });
+
+        btn20.setText("jButton1");
+        btn20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn20ActionPerformed(evt);
+            }
+        });
+
+        btn21.setText("jButton1");
+        btn21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn21ActionPerformed(evt);
+            }
+        });
+
+        btn22.setText("jButton1");
+        btn22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn22ActionPerformed(evt);
+            }
+        });
+
+        comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
+        comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comboBoxCoresActionPerformed(evt);
+            }
+        });
+
+        btn4.setText("jButton1");
+        btn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn4ActionPerformed(evt);
+            }
+        });
+
+        btn7.setText("jButton1");
+        btn7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn7ActionPerformed(evt);
+            }
+        });
+
+        btn8.setText("jButton1");
+        btn8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn8ActionPerformed(evt);
+            }
+        });
+
+        btn9.setText("jButton1");
+        btn9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn9ActionPerformed(evt);
+            }
+        });
+
+        btn10.setText("jButton1");
+        btn10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn10ActionPerformed(evt);
+            }
+        });
+
+        btn11.setText("jButton1");
+        btn11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn11ActionPerformed(evt);
+            }
+        });
+
+        btn12.setText("jButton1");
+        btn12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn12ActionPerformed(evt);
             }
         });
 
@@ -622,10 +500,24 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn23.setText("jButton1");
+        btn23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn23ActionPerformed(evt);
+            }
+        });
+
         btn46.setText("jButton1");
         btn46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn46ActionPerformed(evt);
+            }
+        });
+
+        btn24.setText("jButton1");
+        btn24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn24ActionPerformed(evt);
             }
         });
 
@@ -636,10 +528,29 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn49.setText("jButton1");
+        btn49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn49MouseEntered(evt);
+            }
+        });
+        btn49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn49ActionPerformed(evt);
+            }
+        });
+
         btn48.setText("jButton1");
         btn48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn48ActionPerformed(evt);
+            }
+        });
+
+        btn50.setText("jButton1");
+        btn50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn50ActionPerformed(evt);
             }
         });
 
@@ -655,6 +566,13 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn51.setText("jButton1");
+        btn51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn51ActionPerformed(evt);
+            }
+        });
+
         btn74.setText("jButton1");
         btn74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -662,10 +580,45 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn52.setText("jButton1");
+        btn52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn52ActionPerformed(evt);
+            }
+        });
+
         btn75.setText("jButton1");
         btn75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn75ActionPerformed(evt);
+            }
+        });
+
+        btn53.setText("jButton1");
+        btn53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn53ActionPerformed(evt);
+            }
+        });
+
+        btn54.setText("jButton1");
+        btn54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn54ActionPerformed(evt);
+            }
+        });
+
+        btn55.setText("jButton1");
+        btn55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn55ActionPerformed(evt);
+            }
+        });
+
+        btn56.setText("jButton1");
+        btn56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn56ActionPerformed(evt);
             }
         });
 
@@ -697,10 +650,24 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn57.setText("jButton1");
+        btn57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn57ActionPerformed(evt);
+            }
+        });
+
         btn80.setText("jButton1");
         btn80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn80ActionPerformed(evt);
+            }
+        });
+
+        btn58.setText("jButton1");
+        btn58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn58ActionPerformed(evt);
             }
         });
 
@@ -711,10 +678,24 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn59.setText("jButton1");
+        btn59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn59ActionPerformed(evt);
+            }
+        });
+
         btn82.setText("jButton1");
         btn82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn82ActionPerformed(evt);
+            }
+        });
+
+        btn60.setText("jButton1");
+        btn60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn60ActionPerformed(evt);
             }
         });
 
@@ -725,10 +706,29 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn61.setText("jButton1");
+        btn61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn61MouseEntered(evt);
+            }
+        });
+        btn61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn61ActionPerformed(evt);
+            }
+        });
+
         btn84.setText("jButton1");
         btn84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn84ActionPerformed(evt);
+            }
+        });
+
+        btn62.setText("jButton1");
+        btn62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn62ActionPerformed(evt);
             }
         });
 
@@ -741,6 +741,34 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
         btn85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn85ActionPerformed(evt);
+            }
+        });
+
+        btn63.setText("jButton1");
+        btn63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn63ActionPerformed(evt);
+            }
+        });
+
+        btn64.setText("jButton1");
+        btn64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn64ActionPerformed(evt);
+            }
+        });
+
+        btn65.setText("jButton1");
+        btn65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn65ActionPerformed(evt);
+            }
+        });
+
+        btn66.setText("jButton1");
+        btn66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn66ActionPerformed(evt);
             }
         });
 
@@ -772,10 +800,24 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn67.setText("jButton1");
+        btn67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn67ActionPerformed(evt);
+            }
+        });
+
         btn90.setText("jButton1");
         btn90.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn90ActionPerformed(evt);
+            }
+        });
+
+        btn68.setText("jButton1");
+        btn68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn68ActionPerformed(evt);
             }
         });
 
@@ -786,10 +828,29 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
             }
         });
 
+        btn69.setText("jButton1");
+        btn69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn69ActionPerformed(evt);
+            }
+        });
+
         btn92.setText("jButton1");
         btn92.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn92ActionPerformed(evt);
+            }
+        });
+
+        btn25.setText("jButton1");
+        btn25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn25MouseEntered(evt);
+            }
+        });
+        btn25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn25ActionPerformed(evt);
             }
         });
 
@@ -809,36 +870,6 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(17, 17, 17)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn37, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn40, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn43, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn46, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn73, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn76, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn79, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn82, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn85, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn88, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn91, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(btn26, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(10, 10, 10)
@@ -899,21 +930,46 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
                                 .addComponent(btn90, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(10, 10, 10)
                                 .addComponent(btn93, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)
+                                .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(10, 10, 10)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(195, 195, 195)
+                                        .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btn31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn37, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn40, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn43, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn46, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(20, 20, 20)
+                                        .addComponent(btn73, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn76, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn79, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn82, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn85, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn88, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(btn91, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(btn1))
-                            .addGroup(layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(29, 29, 29)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addContainerGap()
+                        .addComponent(btnteste, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(226, 226, 226)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -992,20 +1048,18 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
                                 .addGap(10, 10, 10)
                                 .addComponent(btn66, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(10, 10, 10)
-                                .addComponent(btn69, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(13, Short.MAX_VALUE))
+                                .addComponent(btn69, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnteste, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btn10, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1050,26 +1104,8 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
                             .addComponent(btn63)
                             .addComponent(btn66)
                             .addComponent(btn69)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(38, 38, 38)
-                                .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn5))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(29, 29, 29)
-                                .addComponent(btn1)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(12, 12, 12)
-                                .addComponent(btn2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btn3))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(76, 76, 76)
-                                .addComponent(btn6)))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
+                    .addComponent(btn4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1126,43 +1162,16 @@ public class TelaOdontograma extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 Color corSelecionada = null;
-    private void comboBoxCoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxCoresActionPerformed
-
-        String corSelecionadaStr = comboBoxCores.getSelectedItem().toString();
-        switch (corSelecionadaStr) {
-            case "Dente bom (Branco)":
-                corSelecionada = Color.WHITE;
-                break;
-
-            case "D-1 (Azul)":
-                corSelecionada = Color.BLUE;
-                break;
-            case "D-2 (Vermelho)":
-                corSelecionada = Color.RED;
-                break;
-            case "D-3 (Verde)":
-                corSelecionada = Color.GREEN;
-                break;
-
-            case "D-5 (Laranja)":
-                corSelecionada = Color.ORANGE;
-                break;
-
-            case "D-4 (Rosa)":
-                corSelecionada = Color.PINK;
-                break;
-
-            case "D-6 (Amarelo)":
-                corSelecionada = Color.YELLOW;
-
+    private void btn26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn26ActionPerformed
+        if (corSelecionada != null) {
+            btn26.setBackground(corSelecionada);
         }
-    }//GEN-LAST:event_comboBoxCoresActionPerformed
+    }//GEN-LAST:event_btn26ActionPerformed
 
     private void btn1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn1MouseEntered
         ///Teste para oq os botoes irão fazer quando o cliente clicar
         ///Color corAtual = btn1.getBackground();
         /// JOptionPane.showMessageDialog(null, "Cor do botão 1: " + corAtual.toString());
-
     }//GEN-LAST:event_btn1MouseEntered
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
@@ -1170,320 +1179,62 @@ Color corSelecionada = null;
             //btn1.setBackground(corSelecionada);
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/dente-ver.png")));
         }
+       
+        
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+         odo.toFront();
+        
+        
     }//GEN-LAST:event_btn1ActionPerformed
-
-    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        if (corSelecionada != null) {
-            btn2.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
         if (corSelecionada != null) {
             btn3.setBackground(corSelecionada);
         }
+        //dispose();
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+        odo.toFront();
     }//GEN-LAST:event_btn3ActionPerformed
 
-    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-        if (corSelecionada != null) {
-            btn4.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn4ActionPerformed
-
-    private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
-        if (corSelecionada != null) {
-            btn5.setBackground(corSelecionada);
-    }//GEN-LAST:event_btn5ActionPerformed
-    }
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
         if (corSelecionada != null) {
             btn6.setBackground(corSelecionada);
         }
+        //dispose();
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+        odo.toFront();
     }//GEN-LAST:event_btn6ActionPerformed
 
-    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
+    private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
         if (corSelecionada != null) {
-            btn7.setBackground(corSelecionada);
+            btn5.setBackground(corSelecionada);
         }
-    }//GEN-LAST:event_btn7ActionPerformed
+        //dispose();
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+        odo.toFront();
+    }//GEN-LAST:event_btn5ActionPerformed
 
-    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        if (corSelecionada != null) {
-            btn8.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn8ActionPerformed
-
-    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
-        if (corSelecionada != null) {
-            btn9.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn9ActionPerformed
-
-    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
-        if (corSelecionada != null) {
-            btn10.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn10ActionPerformed
-
-    private void btn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn11ActionPerformed
-        if (corSelecionada != null) {
-            btn11.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn11ActionPerformed
-
-    private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed
-        if (corSelecionada != null) {
-            btn12.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn12ActionPerformed
-
-    private void btn13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn13MouseEntered
-
-    }//GEN-LAST:event_btn13MouseEntered
-
-    private void btn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn13ActionPerformed
-        if (corSelecionada != null) {
-            btn13.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn13ActionPerformed
-
-    private void btn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn14ActionPerformed
-        if (corSelecionada != null) {
-            btn14.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn14ActionPerformed
-
-    private void btn15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn15ActionPerformed
-        if (corSelecionada != null) {
-            btn15.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn15ActionPerformed
-
-    private void btn16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn16ActionPerformed
-        if (corSelecionada != null) {
-            btn16.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn16ActionPerformed
-
-    private void btn17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn17ActionPerformed
-        if (corSelecionada != null) {
-            btn17.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn17ActionPerformed
-
-    private void btn18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn18ActionPerformed
-        if (corSelecionada != null) {
-            btn18.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn18ActionPerformed
-
-    private void btn19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn19ActionPerformed
-        if (corSelecionada != null) {
-            btn19.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn19ActionPerformed
-
-    private void btn20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn20ActionPerformed
-        if (corSelecionada != null) {
-            btn20.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn20ActionPerformed
-
-    private void btn21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn21ActionPerformed
-        if (corSelecionada != null) {
-            btn21.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn21ActionPerformed
-
-    private void btn22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn22ActionPerformed
-        if (corSelecionada != null) {
-            btn22.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn22ActionPerformed
-
-    private void btn23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn23ActionPerformed
-        if (corSelecionada != null) {
-            btn23.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn23ActionPerformed
-
-    private void btn24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn24ActionPerformed
-        if (corSelecionada != null) {
-            btn24.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn24ActionPerformed
-
-    private void btn49MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn49MouseEntered
+    private void btn70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn70ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn49MouseEntered
+        //dispose();
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+        odo.toFront();
+    }//GEN-LAST:event_btn70ActionPerformed
 
-    private void btn49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn49ActionPerformed
-        if (corSelecionada != null) {
-            btn49.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn49ActionPerformed
-
-    private void btn50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn50ActionPerformed
-        if (corSelecionada != null) {
-            btn50.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn50ActionPerformed
-
-    private void btn51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn51ActionPerformed
-        if (corSelecionada != null) {
-            btn51.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn51ActionPerformed
-
-    private void btn52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn52ActionPerformed
-        if (corSelecionada != null) {
-            btn52.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn52ActionPerformed
-
-    private void btn53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn53ActionPerformed
-        if (corSelecionada != null) {
-            btn53.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn53ActionPerformed
-
-    private void btn54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn54ActionPerformed
-        if (corSelecionada != null) {
-            btn54.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn54ActionPerformed
-
-    private void btn55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn55ActionPerformed
-        if (corSelecionada != null) {
-            btn55.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn55ActionPerformed
-
-    private void btn56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn56ActionPerformed
-        if (corSelecionada != null) {
-            btn56.setBackground(corSelecionada);
-        }
-
-    }//GEN-LAST:event_btn56ActionPerformed
-
-    private void btn57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn57ActionPerformed
-        if (corSelecionada != null) {
-            btn57.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn57ActionPerformed
-
-    private void btn58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn58ActionPerformed
-        if (corSelecionada != null) {
-            btn58.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn58ActionPerformed
-
-    private void btn59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn59ActionPerformed
-        if (corSelecionada != null) {
-            btn59.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn59ActionPerformed
-
-    private void btn60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn60ActionPerformed
-        if (corSelecionada != null) {
-            btn60.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn60ActionPerformed
-
-    private void btn61MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn61MouseEntered
+    private void btntesteAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_btntesteAncestorAdded
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn61MouseEntered
 
-    private void btn61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn61ActionPerformed
-        if (corSelecionada != null) {
-            btn61.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn61ActionPerformed
-
-    private void btn62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn62ActionPerformed
-        if (corSelecionada != null) {
-            btn62.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn62ActionPerformed
-
-    private void btn63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn63ActionPerformed
-        if (corSelecionada != null) {
-            btn63.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn63ActionPerformed
-
-    private void btn64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn64ActionPerformed
-        if (corSelecionada != null) {
-            btn64.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn64ActionPerformed
-
-    private void btn65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn65ActionPerformed
-        if (corSelecionada != null) {
-            btn65.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn65ActionPerformed
-
-    private void btn66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn66ActionPerformed
-        if (corSelecionada != null) {
-            btn66.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn66ActionPerformed
-
-    private void btn67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn67ActionPerformed
-        if (corSelecionada != null) {
-            btn67.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn67ActionPerformed
-
-    private void btn68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn68ActionPerformed
-        if (corSelecionada != null) {
-            btn68.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn68ActionPerformed
-
-    private void btn69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn69ActionPerformed
-        if (corSelecionada != null) {
-            btn69.setBackground(corSelecionada);
-                    }
-
-    }//GEN-LAST:event_btn69ActionPerformed
-
-    private void btn25MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn25MouseEntered
-
-    }//GEN-LAST:event_btn25MouseEntered
-
-    private void btn25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn25ActionPerformed
-        if (corSelecionada != null) {
-            btn25.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn25ActionPerformed
-
-    private void btn26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn26ActionPerformed
-        if (corSelecionada != null) {
-            btn26.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn26ActionPerformed
+    }//GEN-LAST:event_btntesteAncestorAdded
 
     private void btn27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn27ActionPerformed
         if (corSelecionada != null) {
@@ -1539,11 +1290,27 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn35ActionPerformed
 
+    private void btn13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn13MouseEntered
+
+    }//GEN-LAST:event_btn13MouseEntered
+
+    private void btn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn13ActionPerformed
+        if (corSelecionada != null) {
+            btn13.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn13ActionPerformed
+
     private void btn36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn36ActionPerformed
         if (corSelecionada != null) {
             btn36.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn36ActionPerformed
+
+    private void btn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn14ActionPerformed
+        if (corSelecionada != null) {
+            btn14.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn14ActionPerformed
 
     private void btn37MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn37MouseEntered
 
@@ -1555,11 +1322,23 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn37ActionPerformed
 
+    private void btn15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn15ActionPerformed
+        if (corSelecionada != null) {
+            btn15.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn15ActionPerformed
+
     private void btn38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn38ActionPerformed
         if (corSelecionada != null) {
             btn38.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn38ActionPerformed
+
+    private void btn16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn16ActionPerformed
+        if (corSelecionada != null) {
+            btn16.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn16ActionPerformed
 
     private void btn39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn39ActionPerformed
         if (corSelecionada != null) {
@@ -1567,17 +1346,127 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn39ActionPerformed
 
+    private void btn17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn17ActionPerformed
+        if (corSelecionada != null) {
+            btn17.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn17ActionPerformed
+
     private void btn40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn40ActionPerformed
         if (corSelecionada != null) {
             btn40.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn40ActionPerformed
 
+    private void btn18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn18ActionPerformed
+        if (corSelecionada != null) {
+            btn18.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn18ActionPerformed
+
     private void btn41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn41ActionPerformed
         if (corSelecionada != null) {
             btn41.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn41ActionPerformed
+
+    private void btn19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn19ActionPerformed
+        if (corSelecionada != null) {
+            btn19.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn19ActionPerformed
+
+    private void btn20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn20ActionPerformed
+        if (corSelecionada != null) {
+            btn20.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn20ActionPerformed
+
+    private void btn21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn21ActionPerformed
+        if (corSelecionada != null) {
+            btn21.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn21ActionPerformed
+
+    private void btn22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn22ActionPerformed
+        if (corSelecionada != null) {
+            btn22.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn22ActionPerformed
+
+    private void comboBoxCoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxCoresActionPerformed
+
+        String corSelecionadaStr = comboBoxCores.getSelectedItem().toString();
+        switch (corSelecionadaStr) {
+            case "Dente bom (Branco)":
+                corSelecionada = Color.WHITE;
+                break;
+
+            case "D-1 (Azul)":
+                corSelecionada = Color.BLUE;
+                break;
+            case "D-2 (Vermelho)":
+                corSelecionada = Color.RED;
+                break;
+            case "D-3 (Verde)":
+                corSelecionada = Color.GREEN;
+                break;
+
+            case "D-5 (Laranja)":
+                corSelecionada = Color.ORANGE;
+                break;
+
+            case "D-4 (Rosa)":
+                corSelecionada = Color.PINK;
+                break;
+
+            case "D-6 (Amarelo)":
+                corSelecionada = Color.YELLOW;
+
+        }
+    }//GEN-LAST:event_comboBoxCoresActionPerformed
+
+    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
+        if (corSelecionada != null) {
+            btn4.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn4ActionPerformed
+
+    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
+        if (corSelecionada != null) {
+            btn7.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn7ActionPerformed
+
+    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
+        if (corSelecionada != null) {
+            btn8.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn8ActionPerformed
+
+    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
+        if (corSelecionada != null) {
+            btn9.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn9ActionPerformed
+
+    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
+        if (corSelecionada != null) {
+            btn10.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn10ActionPerformed
+
+    private void btn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn11ActionPerformed
+        if (corSelecionada != null) {
+            btn11.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn11ActionPerformed
+
+    private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed
+        if (corSelecionada != null) {
+            btn12.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn12ActionPerformed
 
     private void btn42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn42ActionPerformed
         if (corSelecionada != null) {
@@ -1603,11 +1492,23 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn45ActionPerformed
 
+    private void btn23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn23ActionPerformed
+        if (corSelecionada != null) {
+            btn23.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn23ActionPerformed
+
     private void btn46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn46ActionPerformed
         if (corSelecionada != null) {
             btn46.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn46ActionPerformed
+
+    private void btn24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn24ActionPerformed
+        if (corSelecionada != null) {
+            btn24.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn24ActionPerformed
 
     private void btn47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn47ActionPerformed
         if (corSelecionada != null) {
@@ -1615,11 +1516,27 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn47ActionPerformed
 
+    private void btn49MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn49MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn49MouseEntered
+
+    private void btn49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn49ActionPerformed
+        if (corSelecionada != null) {
+            btn49.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn49ActionPerformed
+
     private void btn48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn48ActionPerformed
         if (corSelecionada != null) {
             btn48.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn48ActionPerformed
+
+    private void btn50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn50ActionPerformed
+        if (corSelecionada != null) {
+            btn50.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn50ActionPerformed
 
     private void btn73MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn73MouseEntered
         // TODO add your handling code here:
@@ -1631,17 +1548,53 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn73ActionPerformed
 
+    private void btn51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn51ActionPerformed
+        if (corSelecionada != null) {
+            btn51.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn51ActionPerformed
+
     private void btn74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn74ActionPerformed
         if (corSelecionada != null) {
             btn74.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn74ActionPerformed
 
+    private void btn52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn52ActionPerformed
+        if (corSelecionada != null) {
+            btn52.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn52ActionPerformed
+
     private void btn75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn75ActionPerformed
         if (corSelecionada != null) {
             btn75.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn75ActionPerformed
+
+    private void btn53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn53ActionPerformed
+        if (corSelecionada != null) {
+            btn53.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn53ActionPerformed
+
+    private void btn54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn54ActionPerformed
+        if (corSelecionada != null) {
+            btn54.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn54ActionPerformed
+
+    private void btn55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn55ActionPerformed
+        if (corSelecionada != null) {
+            btn55.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn55ActionPerformed
+
+    private void btn56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn56ActionPerformed
+        if (corSelecionada != null) {
+            btn56.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn56ActionPerformed
 
     private void btn76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn76ActionPerformed
         if (corSelecionada != null) {
@@ -1667,11 +1620,23 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn79ActionPerformed
 
+    private void btn57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn57ActionPerformed
+        if (corSelecionada != null) {
+            btn57.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn57ActionPerformed
+
     private void btn80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn80ActionPerformed
         if (corSelecionada != null) {
             btn80.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn80ActionPerformed
+
+    private void btn58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn58ActionPerformed
+        if (corSelecionada != null) {
+            btn58.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn58ActionPerformed
 
     private void btn81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn81ActionPerformed
         if (corSelecionada != null) {
@@ -1679,11 +1644,23 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn81ActionPerformed
 
+    private void btn59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn59ActionPerformed
+        if (corSelecionada != null) {
+            btn59.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn59ActionPerformed
+
     private void btn82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn82ActionPerformed
         if (corSelecionada != null) {
             btn82.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn82ActionPerformed
+
+    private void btn60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn60ActionPerformed
+        if (corSelecionada != null) {
+            btn60.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn60ActionPerformed
 
     private void btn83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn83ActionPerformed
         if (corSelecionada != null) {
@@ -1691,11 +1668,27 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn83ActionPerformed
 
+    private void btn61MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn61MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn61MouseEntered
+
+    private void btn61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn61ActionPerformed
+        if (corSelecionada != null) {
+            btn61.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn61ActionPerformed
+
     private void btn84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn84ActionPerformed
         if (corSelecionada != null) {
             btn84.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn84ActionPerformed
+
+    private void btn62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn62ActionPerformed
+        if (corSelecionada != null) {
+            btn62.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn62ActionPerformed
 
     private void btn85MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn85MouseEntered
         // TODO add your handling code here:
@@ -1706,6 +1699,30 @@ Color corSelecionada = null;
             btn85.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn85ActionPerformed
+
+    private void btn63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn63ActionPerformed
+        if (corSelecionada != null) {
+            btn63.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn63ActionPerformed
+
+    private void btn64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn64ActionPerformed
+        if (corSelecionada != null) {
+            btn64.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn64ActionPerformed
+
+    private void btn65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn65ActionPerformed
+        if (corSelecionada != null) {
+            btn65.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn65ActionPerformed
+
+    private void btn66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn66ActionPerformed
+        if (corSelecionada != null) {
+            btn66.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn66ActionPerformed
 
     private void btn86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn86ActionPerformed
         if (corSelecionada != null) {
@@ -1731,11 +1748,23 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn89ActionPerformed
 
+    private void btn67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn67ActionPerformed
+        if (corSelecionada != null) {
+            btn67.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn67ActionPerformed
+
     private void btn90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn90ActionPerformed
         if (corSelecionada != null) {
             btn90.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn90ActionPerformed
+
+    private void btn68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn68ActionPerformed
+        if (corSelecionada != null) {
+            btn68.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn68ActionPerformed
 
     private void btn91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn91ActionPerformed
         if (corSelecionada != null) {
@@ -1743,11 +1772,27 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn91ActionPerformed
 
+    private void btn69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn69ActionPerformed
+        if (corSelecionada != null) {
+            btn69.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn69ActionPerformed
+
     private void btn92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn92ActionPerformed
         if (corSelecionada != null) {
             btn92.setBackground(corSelecionada);
         }
     }//GEN-LAST:event_btn92ActionPerformed
+
+    private void btn25MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn25MouseEntered
+
+    }//GEN-LAST:event_btn25MouseEntered
+
+    private void btn25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn25ActionPerformed
+        if (corSelecionada != null) {
+            btn25.setBackground(corSelecionada);
+        }
+    }//GEN-LAST:event_btn25ActionPerformed
 
     private void btn93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn93ActionPerformed
         if (corSelecionada != null) {
@@ -1755,7 +1800,19 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_btn93ActionPerformed
 
-    
+    private void btntesteMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btntesteMouseClicked
+        // TODO add your handling code here:
+        //dispose();
+
+        TelaOdontograma_sexta odo = new TelaOdontograma_sexta();
+        odo.setVisible(true);
+        Desktop.add(odo);
+        odo.toFront();
+
+
+    }//GEN-LAST:event_btntesteMouseClicked
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn1;
     private javax.swing.JButton btn10;
@@ -1768,7 +1825,6 @@ Color corSelecionada = null;
     private javax.swing.JButton btn17;
     private javax.swing.JButton btn18;
     private javax.swing.JButton btn19;
-    private javax.swing.JButton btn2;
     private javax.swing.JButton btn20;
     private javax.swing.JButton btn21;
     private javax.swing.JButton btn22;
@@ -1824,6 +1880,7 @@ Color corSelecionada = null;
     private javax.swing.JButton btn68;
     private javax.swing.JButton btn69;
     private javax.swing.JButton btn7;
+    private javax.swing.JButton btn70;
     private javax.swing.JButton btn73;
     private javax.swing.JButton btn74;
     private javax.swing.JButton btn75;
@@ -1847,6 +1904,7 @@ Color corSelecionada = null;
     private javax.swing.JButton btn91;
     private javax.swing.JButton btn92;
     private javax.swing.JButton btn93;
+    private javax.swing.JPanel btnteste;
     private javax.swing.JComboBox<String> comboBoxCores;
     // End of variables declaration//GEN-END:variables
 }

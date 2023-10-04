@@ -6,6 +6,7 @@ package br.com.telas;
 
 import java.awt.Color;
 
+
 /**
  *
  * @author MarioPedro
@@ -17,6 +18,10 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
      */
     public TelaOdontograma_sexta() {
         initComponents();
+
+        setLocation(818, 300);
+    
+       
     }
 
     /**
@@ -32,8 +37,11 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
         btn1 = new javax.swing.JButton();
         btn2 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
+        setClosable(true);
         setVisible(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
         comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
@@ -41,6 +49,7 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
                 comboBoxCoresActionPerformed(evt);
             }
         });
+        getContentPane().add(comboBoxCores, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 27, 150, -1));
 
         btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-SUPERIOR.png"))); // NOI18N
         btn1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -53,6 +62,7 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
                 btn1ActionPerformed(evt);
             }
         });
+        getContentPane().add(btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
 
         btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-MEIO.png"))); // NOI18N
         btn2.addActionListener(new java.awt.event.ActionListener() {
@@ -60,6 +70,7 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
                 btn2ActionPerformed(evt);
             }
         });
+        getContentPane().add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, -1, -1));
 
         btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-INFERIOR.png"))); // NOI18N
         btn3.addActionListener(new java.awt.event.ActionListener() {
@@ -67,81 +78,50 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
                 btn3ActionPerformed(evt);
             }
         });
+        getContentPane().add(btn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 119, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(59, 59, 59)
-                        .addComponent(btn1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(209, 209, 209)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn3)
-                            .addComponent(btn2))))
-                .addContainerGap(449, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(btn1)))
-                .addGap(18, 18, 18)
-                .addComponent(btn2)
-                .addGap(18, 18, 18)
-                .addComponent(btn3)
-                .addContainerGap(66, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-SUPERIOR parte de cima.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 340, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    
+
     String aux_cores = null;
     private void comboBoxCoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxCoresActionPerformed
 
         String corSelecionadaStr = comboBoxCores.getSelectedItem().toString();
         switch (corSelecionadaStr) {
             case "Dente bom (Branco)":
-           
-            aux_cores = "branco";
-            break;
+
+                aux_cores = "branco";
+                break;
 
             case "D-1 (Azul)":
-         
-            aux_cores = "azul";
-            break;
+
+                aux_cores = "azul";
+                break;
             case "D-2 (Vermelho)":
-            
-            aux_cores = "vermelho";
-            break;
+
+                aux_cores = "vermelho";
+                break;
             case "D-3 (Verde)":
                 aux_cores = "verde";
-            
-            break;
+
+                break;
 
             case "D-5 (Laranja)":
-            
-            aux_cores = "laranja";
-            break;
+
+                aux_cores = "laranja";
+                break;
 
             case "D-4 (Rosa)":
-            
-            aux_cores = "rosa";
-            break;
+
+                aux_cores = "rosa";
+                break;
 
             case "D-6 (Amarelo)":
-            
-            aux_cores = "amarelo";
+
+                aux_cores = "amarelo";
 
         }
     }//GEN-LAST:event_comboBoxCoresActionPerformed
@@ -153,58 +133,58 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_btn1MouseEntered
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
-        if ( aux_cores.equals("vermelho")  ) {
-            
+        if (aux_cores.equals("vermelho")) {
+
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Vermelho/D18-VERMELHO-SUPERIOR.png")));
-        }else if( aux_cores.equals("branco")){
+        } else if (aux_cores.equals("branco")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-SUPERIOR.png")));
-        }else if(  aux_cores.equals("azul")){
+        } else if (aux_cores.equals("azul")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Azul/D18-AZUL-SUPERIOR.png")));
-        }else if( aux_cores.equals("verde")){
+        } else if (aux_cores.equals("verde")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Verde/D18-VERDE-SUPERIOR.png")));
-        }else if(aux_cores.equals("laranja")){
+        } else if (aux_cores.equals("laranja")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Laranja/D18-LARANJA-SUPERIOR.png")));
-        }else if( aux_cores.equals("rosa")){
+        } else if (aux_cores.equals("rosa")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Rosa/D18-ROSA-SUPERIOR.png")));
-        }else if(aux_cores.equals("amarelo")){
+        } else if (aux_cores.equals("amarelo")) {
             btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Amarelo/D18-AMARELO-SUPERIOR.png")));
         }
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
-        if ( aux_cores.equals("vermelho")  ) {
-            
+        if (aux_cores.equals("vermelho")) {
+
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Vermelho/D18-VERMELHO-MEIO.png")));
-        }else if( aux_cores.equals("branco")){
+        } else if (aux_cores.equals("branco")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-MEIO.png")));
-        }else if(  aux_cores.equals("azul")){
+        } else if (aux_cores.equals("azul")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Azul/D18-AZUL-MEIO.png")));
-        }else if( aux_cores.equals("verde")){
+        } else if (aux_cores.equals("verde")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Verde/D18-VERDE-MEIO.png")));
-        }else if(aux_cores.equals("laranja")){
+        } else if (aux_cores.equals("laranja")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Laranja/D18-LARANJA-MEIO.png")));
-        }else if( aux_cores.equals("rosa")){
+        } else if (aux_cores.equals("rosa")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Rosa/D18-ROSA-MEIO.png")));
-        }else if(aux_cores.equals("amarelo")){
+        } else if (aux_cores.equals("amarelo")) {
             btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Amarelo/D18-AMARELO-MEIO.png")));
         }
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
-       if ( aux_cores.equals("vermelho")  ) {
-            
+        if (aux_cores.equals("vermelho")) {
+
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Vermelho/D18-VERMELHO-INFERIOR.png")));
-        }else if( aux_cores.equals("branco")){
+        } else if (aux_cores.equals("branco")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Branco/D18-BRANCO-INFERIOR.png")));
-        }else if(  aux_cores.equals("azul")){
+        } else if (aux_cores.equals("azul")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Azul/D18-AZUL-INFERIOR.png")));
-        }else if( aux_cores.equals("verde")){
+        } else if (aux_cores.equals("verde")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Verde/D18-VERDE-INFERIOR.png")));
-        }else if(aux_cores.equals("laranja")){
+        } else if (aux_cores.equals("laranja")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Laranja/D18-LARANJA-INFERIOR.png")));
-        }else if( aux_cores.equals("rosa")){
+        } else if (aux_cores.equals("rosa")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Rosa/D18-ROSA-INFERIOR.png")));
-        }else if(aux_cores.equals("amarelo")){
+        } else if (aux_cores.equals("amarelo")) {
             btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Icones/D18/Amarelo/D18-AMARELO-INFERIOR.png")));
         }
     }//GEN-LAST:event_btn3ActionPerformed
@@ -215,5 +195,6 @@ public class TelaOdontograma_sexta extends javax.swing.JInternalFrame {
     private javax.swing.JButton btn2;
     private javax.swing.JButton btn3;
     private javax.swing.JComboBox<String> comboBoxCores;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

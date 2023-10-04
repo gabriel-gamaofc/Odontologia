@@ -15,16 +15,17 @@ import javax.swing.JOptionPane;
  */
 public class Login_control {
 
-    public static String usu_log, senha_log;
+    public  static String usu_log, senha_log;
     //Recebendo informações do view
 
     public String captador_usu() {
         String usu = TelaLogin_2.txtemail_log.getText();
         usu_log = usu;
         //System.out.println(usu);
-        return usu;
+        return usu_log;
 
     }
+    
 
     //Recebendo informações do view
     public String captador_senha() {

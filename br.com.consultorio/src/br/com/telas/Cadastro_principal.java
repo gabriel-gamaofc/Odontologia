@@ -4,6 +4,8 @@
  */
 package br.com.telas;
 
+import Controll.cadprincipal_control;
+
 /**
  *
  * @author Gabriel
@@ -15,6 +17,24 @@ public class Cadastro_principal extends javax.swing.JFrame {
      */
     public Cadastro_principal() {
         initComponents();
+    }
+
+    private void voltar_login() {
+        TelaLogin_2 login = new TelaLogin_2();
+        login.setVisible(true);
+        this.dispose();
+    }
+
+    public void fechar() {
+
+        TelaLogin_2 opn = new TelaLogin_2();
+        opn.setVisible(true);
+        this.dispose();
+    }
+    // faz a chamada para o inicio do processo
+    private void inc_cdn() {
+        cadprincipal_control inc = new cadprincipal_control();
+        inc.view_control();
     }
 
     /**
@@ -43,11 +63,11 @@ public class Cadastro_principal extends javax.swing.JFrame {
         btncad = new javax.swing.JButton();
         txtsenha_cad = new javax.swing.JPasswordField();
         txtsenha_confirm_cad = new javax.swing.JPasswordField();
+        btnvoltar = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -113,6 +133,13 @@ public class Cadastro_principal extends javax.swing.JFrame {
             }
         });
 
+        btnvoltar.setText("Voltar");
+        btnvoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnvoltarActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -130,16 +157,18 @@ public class Cadastro_principal extends javax.swing.JFrame {
                     .addComponent(jLabel7)
                     .addComponent(jLabel8)
                     .addComponent(jLabel9)
-                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(btncad, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(txtsenha_confirm_cad, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtsenha_cad, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtemail_cad, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cboperfol_cad, javax.swing.GroupLayout.Alignment.LEADING, 0, 314, Short.MAX_VALUE)
-                            .addComponent(txtCPFcad, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtnome_cad, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txttel_cad, javax.swing.GroupLayout.Alignment.LEADING))))
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(jPanel3Layout.createSequentialGroup()
+                            .addComponent(btnvoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
+                            .addComponent(btncad, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtsenha_confirm_cad, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(txtsenha_cad, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(txtemail_cad, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(cboperfol_cad, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(txtCPFcad, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(txtnome_cad, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(txttel_cad, javax.swing.GroupLayout.Alignment.LEADING)))
                 .addGap(62, 62, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -176,12 +205,11 @@ public class Cadastro_principal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtsenha_confirm_cad, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
-                .addComponent(btncad, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btncad, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnvoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21))
         );
-
-        getContentPane().add(jPanel3);
-        jPanel3.setBounds(400, 0, 400, 700);
 
         jPanel2.setBackground(new java.awt.Color(51, 51, 51));
 
@@ -203,8 +231,20 @@ public class Cadastro_principal extends javax.swing.JFrame {
                 .addContainerGap(254, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2);
-        jPanel2.setBounds(0, 0, 400, 700);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -227,7 +267,13 @@ public class Cadastro_principal extends javax.swing.JFrame {
 
     private void btncadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncadActionPerformed
         // TODO add your handling code here:
+        inc_cdn();
     }//GEN-LAST:event_btncadActionPerformed
+
+    private void btnvoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnvoltarActionPerformed
+        // TODO add your handling code here:
+        voltar_login();
+    }//GEN-LAST:event_btnvoltarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -266,7 +312,8 @@ public class Cadastro_principal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btncad;
-    private javax.swing.JComboBox<String> cboperfol_cad;
+    private javax.swing.JButton btnvoltar;
+    public static javax.swing.JComboBox<String> cboperfol_cad;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -278,11 +325,11 @@ public class Cadastro_principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JTextField txtCPFcad;
-    private javax.swing.JTextField txtemail_cad;
-    private javax.swing.JTextField txtnome_cad;
-    private javax.swing.JPasswordField txtsenha_cad;
-    private javax.swing.JPasswordField txtsenha_confirm_cad;
-    private javax.swing.JTextField txttel_cad;
+    public static javax.swing.JTextField txtCPFcad;
+    public static javax.swing.JTextField txtemail_cad;
+    public static javax.swing.JTextField txtnome_cad;
+    public static javax.swing.JPasswordField txtsenha_cad;
+    public static javax.swing.JPasswordField txtsenha_confirm_cad;
+    public static javax.swing.JTextField txttel_cad;
     // End of variables declaration//GEN-END:variables
 }

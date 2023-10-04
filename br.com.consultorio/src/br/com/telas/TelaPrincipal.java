@@ -9,15 +9,13 @@ package br.com.telas;
  * @author gabri
  */
 public class TelaPrincipal extends javax.swing.JFrame {
-    
 
     /**
      * Creates new form TelaPrincipal
      */
     public TelaPrincipal() {
         initComponents();
-       
-        
+
     }
 
     /**
@@ -39,6 +37,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         btnacompanhamento = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         btnodonto = new javax.swing.JButton();
+        btntestando = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -112,6 +111,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btntestando.setText("jButton2");
+        btntestando.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btntestandoActionPerformed(evt);
+            }
+        });
+
         Desktop.setLayer(btnequipes, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(BTNATENDIMENTO, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btncadastro, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -119,26 +125,32 @@ public class TelaPrincipal extends javax.swing.JFrame {
         Desktop.setLayer(btnacompanhamento, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnodonto, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        Desktop.setLayer(btntestando, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout DesktopLayout = new javax.swing.GroupLayout(Desktop);
         Desktop.setLayout(DesktopLayout);
         DesktopLayout.setHorizontalGroup(
             DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DesktopLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btncadastro)
-                    .addComponent(btnhistoriaodontologica)
-                    .addComponent(btnacompanhamento)
                     .addGroup(DesktopLayout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnequipes)
-                            .addComponent(BTNATENDIMENTO))
-                        .addGap(68, 68, 68)
-                        .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnodonto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(1347, Short.MAX_VALUE))
+                            .addComponent(btncadastro)
+                            .addComponent(btnhistoriaodontologica)
+                            .addComponent(btnacompanhamento)
+                            .addGroup(DesktopLayout.createSequentialGroup()
+                                .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnequipes)
+                                    .addComponent(BTNATENDIMENTO))
+                                .addGap(68, 68, 68)
+                                .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnodonto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                    .addGroup(DesktopLayout.createSequentialGroup()
+                        .addGap(658, 658, 658)
+                        .addComponent(btntestando)))
+                .addContainerGap(885, Short.MAX_VALUE))
         );
         DesktopLayout.setVerticalGroup(
             DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -147,7 +159,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnequipes)
                     .addComponent(jButton1))
-                .addGap(68, 68, 68)
+                .addGap(4, 4, 4)
+                .addComponent(btntestando)
+                .addGap(35, 35, 35)
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(DesktopLayout.createSequentialGroup()
                         .addComponent(btnodonto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -324,15 +338,20 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void btnodontoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnodontoActionPerformed
         // TODO add your handling code here:
-        TelaOdontograma_sexta dente = new TelaOdontograma_sexta();
+         TelaOdontograma1 dente = new TelaOdontograma1();
         dente.setVisible(true);
         Desktop.add(dente);
     }//GEN-LAST:event_btnodontoActionPerformed
 
+    private void btntestandoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntestandoActionPerformed
+        // TODO add your handling code here:
+       
+    }//GEN-LAST:event_btntestandoActionPerformed
+
     /**
      * @param args the command line arguments
      */
-   public static void main(String args[]) {
+    public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -366,12 +385,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BTNATENDIMENTO;
-    private javax.swing.JDesktopPane Desktop;
+    public static javax.swing.JDesktopPane Desktop;
     private javax.swing.JButton btnacompanhamento;
     public static javax.swing.JButton btncadastro;
     private javax.swing.JButton btnequipes;
     private javax.swing.JButton btnhistoriaodontologica;
     private javax.swing.JButton btnodonto;
+    public static javax.swing.JButton btntestando;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
