@@ -34,115 +34,222 @@ public class TelaOdontograma1 extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btn26 = new javax.swing.JButton();
         btnteste = new javax.swing.JPanel();
         btn1 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
         btn6 = new javax.swing.JButton();
         btn5 = new javax.swing.JButton();
         btn70 = new javax.swing.JButton();
-        btn27 = new javax.swing.JButton();
-        btn28 = new javax.swing.JButton();
-        btn29 = new javax.swing.JButton();
-        btn30 = new javax.swing.JButton();
-        btn31 = new javax.swing.JButton();
-        btn32 = new javax.swing.JButton();
-        btn33 = new javax.swing.JButton();
-        btn34 = new javax.swing.JButton();
-        btn35 = new javax.swing.JButton();
-        btn13 = new javax.swing.JButton();
-        btn36 = new javax.swing.JButton();
-        btn14 = new javax.swing.JButton();
-        btn37 = new javax.swing.JButton();
-        btn15 = new javax.swing.JButton();
-        btn38 = new javax.swing.JButton();
-        btn16 = new javax.swing.JButton();
-        btn39 = new javax.swing.JButton();
-        btn17 = new javax.swing.JButton();
-        btn40 = new javax.swing.JButton();
-        btn18 = new javax.swing.JButton();
-        btn41 = new javax.swing.JButton();
-        btn19 = new javax.swing.JButton();
-        btn20 = new javax.swing.JButton();
-        btn21 = new javax.swing.JButton();
-        btn22 = new javax.swing.JButton();
         comboBoxCores = new javax.swing.JComboBox<>();
+        jPanel1 = new javax.swing.JPanel();
         btn4 = new javax.swing.JButton();
         btn7 = new javax.swing.JButton();
         btn8 = new javax.swing.JButton();
         btn9 = new javax.swing.JButton();
         btn10 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
         btn11 = new javax.swing.JButton();
         btn12 = new javax.swing.JButton();
+        btn13 = new javax.swing.JButton();
+        btn14 = new javax.swing.JButton();
+        btn15 = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        btn21 = new javax.swing.JButton();
+        btn22 = new javax.swing.JButton();
+        btn23 = new javax.swing.JButton();
+        btn24 = new javax.swing.JButton();
+        btn25 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        btn16 = new javax.swing.JButton();
+        btn17 = new javax.swing.JButton();
+        btn18 = new javax.swing.JButton();
+        btn19 = new javax.swing.JButton();
+        btn20 = new javax.swing.JButton();
+        jPanel7 = new javax.swing.JPanel();
+        btn36 = new javax.swing.JButton();
+        btn37 = new javax.swing.JButton();
+        btn38 = new javax.swing.JButton();
+        btn39 = new javax.swing.JButton();
+        btn40 = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
+        btn31 = new javax.swing.JButton();
+        btn32 = new javax.swing.JButton();
+        btn33 = new javax.swing.JButton();
+        btn34 = new javax.swing.JButton();
+        btn35 = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        btn26 = new javax.swing.JButton();
+        btn27 = new javax.swing.JButton();
+        btn28 = new javax.swing.JButton();
+        btn29 = new javax.swing.JButton();
+        btn30 = new javax.swing.JButton();
+        jPanel8 = new javax.swing.JPanel();
+        btn41 = new javax.swing.JButton();
         btn42 = new javax.swing.JButton();
         btn43 = new javax.swing.JButton();
         btn44 = new javax.swing.JButton();
         btn45 = new javax.swing.JButton();
-        btn23 = new javax.swing.JButton();
-        btn46 = new javax.swing.JButton();
-        btn24 = new javax.swing.JButton();
-        btn47 = new javax.swing.JButton();
-        btn49 = new javax.swing.JButton();
-        btn48 = new javax.swing.JButton();
-        btn50 = new javax.swing.JButton();
-        btn73 = new javax.swing.JButton();
-        btn51 = new javax.swing.JButton();
+        jPanel14 = new javax.swing.JPanel();
         btn74 = new javax.swing.JButton();
-        btn52 = new javax.swing.JButton();
         btn75 = new javax.swing.JButton();
-        btn53 = new javax.swing.JButton();
-        btn54 = new javax.swing.JButton();
-        btn55 = new javax.swing.JButton();
-        btn56 = new javax.swing.JButton();
         btn76 = new javax.swing.JButton();
         btn77 = new javax.swing.JButton();
         btn78 = new javax.swing.JButton();
+        jPanel15 = new javax.swing.JPanel();
         btn79 = new javax.swing.JButton();
-        btn57 = new javax.swing.JButton();
         btn80 = new javax.swing.JButton();
-        btn58 = new javax.swing.JButton();
         btn81 = new javax.swing.JButton();
-        btn59 = new javax.swing.JButton();
         btn82 = new javax.swing.JButton();
-        btn60 = new javax.swing.JButton();
         btn83 = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        btn51 = new javax.swing.JButton();
+        btn52 = new javax.swing.JButton();
+        btn53 = new javax.swing.JButton();
+        btn54 = new javax.swing.JButton();
+        btn55 = new javax.swing.JButton();
+        jPanel13 = new javax.swing.JPanel();
+        btn66 = new javax.swing.JButton();
+        btn67 = new javax.swing.JButton();
+        btn68 = new javax.swing.JButton();
+        btn69 = new javax.swing.JButton();
+        btn73 = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        btn56 = new javax.swing.JButton();
+        btn57 = new javax.swing.JButton();
+        btn58 = new javax.swing.JButton();
+        btn59 = new javax.swing.JButton();
+        btn60 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
         btn61 = new javax.swing.JButton();
-        btn84 = new javax.swing.JButton();
         btn62 = new javax.swing.JButton();
-        btn85 = new javax.swing.JButton();
         btn63 = new javax.swing.JButton();
         btn64 = new javax.swing.JButton();
         btn65 = new javax.swing.JButton();
-        btn66 = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        btn46 = new javax.swing.JButton();
+        btn47 = new javax.swing.JButton();
+        btn48 = new javax.swing.JButton();
+        btn49 = new javax.swing.JButton();
+        btn50 = new javax.swing.JButton();
+        jPanel16 = new javax.swing.JPanel();
+        btn84 = new javax.swing.JButton();
+        btn85 = new javax.swing.JButton();
         btn86 = new javax.swing.JButton();
         btn87 = new javax.swing.JButton();
         btn88 = new javax.swing.JButton();
+        jPanel18 = new javax.swing.JPanel();
+        btn101 = new javax.swing.JButton();
+        btn102 = new javax.swing.JButton();
+        btn103 = new javax.swing.JButton();
+        btn104 = new javax.swing.JButton();
+        btn105 = new javax.swing.JButton();
+        jPanel27 = new javax.swing.JPanel();
+        btn146 = new javax.swing.JButton();
+        btn147 = new javax.swing.JButton();
+        btn148 = new javax.swing.JButton();
+        btn149 = new javax.swing.JButton();
+        btn150 = new javax.swing.JButton();
+        jPanel29 = new javax.swing.JPanel();
+        btn156 = new javax.swing.JButton();
+        btn157 = new javax.swing.JButton();
+        btn158 = new javax.swing.JButton();
+        btn159 = new javax.swing.JButton();
+        btn160 = new javax.swing.JButton();
+        jPanel23 = new javax.swing.JPanel();
+        btn126 = new javax.swing.JButton();
+        btn127 = new javax.swing.JButton();
+        btn128 = new javax.swing.JButton();
+        btn129 = new javax.swing.JButton();
+        btn130 = new javax.swing.JButton();
+        jPanel19 = new javax.swing.JPanel();
+        btn106 = new javax.swing.JButton();
+        btn107 = new javax.swing.JButton();
+        btn108 = new javax.swing.JButton();
+        btn109 = new javax.swing.JButton();
+        btn110 = new javax.swing.JButton();
+        jPanel24 = new javax.swing.JPanel();
+        btn131 = new javax.swing.JButton();
+        btn132 = new javax.swing.JButton();
+        btn133 = new javax.swing.JButton();
+        btn134 = new javax.swing.JButton();
+        btn135 = new javax.swing.JButton();
+        jPanel30 = new javax.swing.JPanel();
+        btn161 = new javax.swing.JButton();
+        btn162 = new javax.swing.JButton();
+        btn163 = new javax.swing.JButton();
+        btn164 = new javax.swing.JButton();
+        btn165 = new javax.swing.JButton();
+        jPanel20 = new javax.swing.JPanel();
+        btn111 = new javax.swing.JButton();
+        btn112 = new javax.swing.JButton();
+        btn113 = new javax.swing.JButton();
+        btn114 = new javax.swing.JButton();
+        btn115 = new javax.swing.JButton();
+        jPanel32 = new javax.swing.JPanel();
+        btn171 = new javax.swing.JButton();
+        btn172 = new javax.swing.JButton();
+        btn173 = new javax.swing.JButton();
+        btn174 = new javax.swing.JButton();
+        btn175 = new javax.swing.JButton();
+        jPanel26 = new javax.swing.JPanel();
+        btn141 = new javax.swing.JButton();
+        btn142 = new javax.swing.JButton();
+        btn143 = new javax.swing.JButton();
+        btn144 = new javax.swing.JButton();
+        btn145 = new javax.swing.JButton();
+        jPanel22 = new javax.swing.JPanel();
+        btn121 = new javax.swing.JButton();
+        btn122 = new javax.swing.JButton();
+        btn123 = new javax.swing.JButton();
+        btn124 = new javax.swing.JButton();
+        btn125 = new javax.swing.JButton();
+        jPanel21 = new javax.swing.JPanel();
+        btn116 = new javax.swing.JButton();
+        btn117 = new javax.swing.JButton();
+        btn118 = new javax.swing.JButton();
+        btn119 = new javax.swing.JButton();
+        btn120 = new javax.swing.JButton();
+        jPanel31 = new javax.swing.JPanel();
+        btn166 = new javax.swing.JButton();
+        btn167 = new javax.swing.JButton();
+        btn168 = new javax.swing.JButton();
+        btn169 = new javax.swing.JButton();
+        btn170 = new javax.swing.JButton();
+        jPanel28 = new javax.swing.JPanel();
+        btn151 = new javax.swing.JButton();
+        btn152 = new javax.swing.JButton();
+        btn153 = new javax.swing.JButton();
+        btn154 = new javax.swing.JButton();
+        btn155 = new javax.swing.JButton();
+        jPanel17 = new javax.swing.JPanel();
         btn89 = new javax.swing.JButton();
-        btn67 = new javax.swing.JButton();
         btn90 = new javax.swing.JButton();
-        btn68 = new javax.swing.JButton();
         btn91 = new javax.swing.JButton();
-        btn69 = new javax.swing.JButton();
         btn92 = new javax.swing.JButton();
-        btn25 = new javax.swing.JButton();
         btn93 = new javax.swing.JButton();
+        jPanel25 = new javax.swing.JPanel();
+        btn136 = new javax.swing.JButton();
+        btn137 = new javax.swing.JButton();
+        btn138 = new javax.swing.JButton();
+        btn139 = new javax.swing.JButton();
+        btn140 = new javax.swing.JButton();
+        jPanel33 = new javax.swing.JPanel();
+        btn176 = new javax.swing.JButton();
+        btn177 = new javax.swing.JButton();
+        btn178 = new javax.swing.JButton();
+        btn179 = new javax.swing.JButton();
+        btn180 = new javax.swing.JButton();
 
         setClosable(true);
         setIconifiable(true);
-
-        btn26.setText("jButton1");
-        btn26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn26ActionPerformed(evt);
-            }
-        });
+        getContentPane().setLayout(null);
 
         btnteste.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnteste.addAncestorListener(new javax.swing.event.AncestorListener() {
-            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
-            }
             public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
                 btntesteAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }
             public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
             }
@@ -204,7 +311,7 @@ public class TelaOdontograma1 extends javax.swing.JInternalFrame {
                     .addComponent(btn5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, btntesteLayout.createSequentialGroup()
                         .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btn6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btn6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 103, Short.MAX_VALUE)
                             .addComponent(btn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap())))
             .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -223,78 +330,136 @@ public class TelaOdontograma1 extends javax.swing.JInternalFrame {
                 .addComponent(btn3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btn5)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(btntesteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(btntesteLayout.createSequentialGroup()
                     .addGap(142, 142, 142)
                     .addComponent(btn70, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(185, Short.MAX_VALUE)))
+                    .addContainerGap(161, Short.MAX_VALUE)))
         );
 
-        btn27.setText("jButton1");
-        btn27.addActionListener(new java.awt.event.ActionListener() {
+        getContentPane().add(btnteste);
+        btnteste.setBounds(17, 64, 119, 138);
+
+        comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
+        comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn27ActionPerformed(evt);
+                comboBoxCoresActionPerformed(evt);
+            }
+        });
+        getContentPane().add(comboBoxCores);
+        comboBoxCores.setBounds(17, 6, 150, 23);
+
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn4MouseEntered(evt);
+            }
+        });
+        btn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn4ActionPerformed(evt);
             }
         });
 
-        btn28.setText("jButton1");
-        btn28.addActionListener(new java.awt.event.ActionListener() {
+        btn7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn7MouseEntered(evt);
+            }
+        });
+        btn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn28ActionPerformed(evt);
+                btn7ActionPerformed(evt);
             }
         });
 
-        btn29.setText("jButton1");
-        btn29.addActionListener(new java.awt.event.ActionListener() {
+        btn8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn8MouseEntered(evt);
+            }
+        });
+        btn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn29ActionPerformed(evt);
+                btn8ActionPerformed(evt);
             }
         });
 
-        btn30.setText("jButton1");
-        btn30.addActionListener(new java.awt.event.ActionListener() {
+        btn9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn9MouseEntered(evt);
+            }
+        });
+        btn9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn30ActionPerformed(evt);
+                btn9ActionPerformed(evt);
             }
         });
 
-        btn31.setText("jButton1");
-        btn31.addActionListener(new java.awt.event.ActionListener() {
+        btn10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn10MouseEntered(evt);
+            }
+        });
+        btn10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn31ActionPerformed(evt);
+                btn10ActionPerformed(evt);
             }
         });
 
-        btn32.setText("jButton1");
-        btn32.addActionListener(new java.awt.event.ActionListener() {
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn4, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn9, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn10, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(154, 64, 90, 132);
+
+        jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn11MouseEntered(evt);
+            }
+        });
+        btn11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn32ActionPerformed(evt);
+                btn11ActionPerformed(evt);
             }
         });
 
-        btn33.setText("jButton1");
-        btn33.addActionListener(new java.awt.event.ActionListener() {
+        btn12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn12MouseEntered(evt);
+            }
+        });
+        btn12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn33ActionPerformed(evt);
+                btn12ActionPerformed(evt);
             }
         });
 
-        btn34.setText("jButton1");
-        btn34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn34ActionPerformed(evt);
-            }
-        });
-
-        btn35.setText("jButton1");
-        btn35.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn35ActionPerformed(evt);
-            }
-        });
-
-        btn13.setText("jButton1");
         btn13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 btn13MouseEntered(evt);
@@ -306,543 +471,103 @@ public class TelaOdontograma1 extends javax.swing.JInternalFrame {
             }
         });
 
-        btn36.setText("jButton1");
-        btn36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn36ActionPerformed(evt);
+        btn14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn14MouseEntered(evt);
             }
         });
-
-        btn14.setText("jButton1");
         btn14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn14ActionPerformed(evt);
             }
         });
 
-        btn37.setText("jButton1");
-        btn37.addMouseListener(new java.awt.event.MouseAdapter() {
+        btn15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn37MouseEntered(evt);
+                btn15MouseEntered(evt);
             }
         });
-        btn37.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn37ActionPerformed(evt);
-            }
-        });
-
-        btn15.setText("jButton1");
         btn15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn15ActionPerformed(evt);
             }
         });
 
-        btn38.setText("jButton1");
-        btn38.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn38ActionPerformed(evt);
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn11, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn11, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn12, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn13, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn14, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn15, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(586, 64, 90, 132);
+
+        jPanel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn21MouseEntered(evt);
             }
         });
-
-        btn16.setText("jButton1");
-        btn16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn16ActionPerformed(evt);
-            }
-        });
-
-        btn39.setText("jButton1");
-        btn39.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn39ActionPerformed(evt);
-            }
-        });
-
-        btn17.setText("jButton1");
-        btn17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn17ActionPerformed(evt);
-            }
-        });
-
-        btn40.setText("jButton1");
-        btn40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn40ActionPerformed(evt);
-            }
-        });
-
-        btn18.setText("jButton1");
-        btn18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn18ActionPerformed(evt);
-            }
-        });
-
-        btn41.setText("jButton1");
-        btn41.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn41ActionPerformed(evt);
-            }
-        });
-
-        btn19.setText("jButton1");
-        btn19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn19ActionPerformed(evt);
-            }
-        });
-
-        btn20.setText("jButton1");
-        btn20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn20ActionPerformed(evt);
-            }
-        });
-
-        btn21.setText("jButton1");
         btn21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn21ActionPerformed(evt);
             }
         });
 
-        btn22.setText("jButton1");
+        btn22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn22MouseEntered(evt);
+            }
+        });
         btn22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn22ActionPerformed(evt);
             }
         });
 
-        comboBoxCores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Dente bom (Branco)", "D-1 (Azul)", "D-2 (Vermelho)", "D-3 (Verde)", "D-4 (Rosa)", "D-5 (Laranja)", "D-6 (Amarelo)" }));
-        comboBoxCores.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                comboBoxCoresActionPerformed(evt);
+        btn23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn23MouseEntered(evt);
             }
         });
-
-        btn4.setText("jButton1");
-        btn4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn4ActionPerformed(evt);
-            }
-        });
-
-        btn7.setText("jButton1");
-        btn7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn7ActionPerformed(evt);
-            }
-        });
-
-        btn8.setText("jButton1");
-        btn8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn8ActionPerformed(evt);
-            }
-        });
-
-        btn9.setText("jButton1");
-        btn9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn9ActionPerformed(evt);
-            }
-        });
-
-        btn10.setText("jButton1");
-        btn10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn10ActionPerformed(evt);
-            }
-        });
-
-        btn11.setText("jButton1");
-        btn11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn11ActionPerformed(evt);
-            }
-        });
-
-        btn12.setText("jButton1");
-        btn12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn12ActionPerformed(evt);
-            }
-        });
-
-        btn42.setText("jButton1");
-        btn42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn42ActionPerformed(evt);
-            }
-        });
-
-        btn43.setText("jButton1");
-        btn43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn43ActionPerformed(evt);
-            }
-        });
-
-        btn44.setText("jButton1");
-        btn44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn44ActionPerformed(evt);
-            }
-        });
-
-        btn45.setText("jButton1");
-        btn45.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn45ActionPerformed(evt);
-            }
-        });
-
-        btn23.setText("jButton1");
         btn23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn23ActionPerformed(evt);
             }
         });
 
-        btn46.setText("jButton1");
-        btn46.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn46ActionPerformed(evt);
+        btn24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn24MouseEntered(evt);
             }
         });
-
-        btn24.setText("jButton1");
         btn24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn24ActionPerformed(evt);
             }
         });
 
-        btn47.setText("jButton1");
-        btn47.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn47ActionPerformed(evt);
-            }
-        });
-
-        btn49.setText("jButton1");
-        btn49.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn49MouseEntered(evt);
-            }
-        });
-        btn49.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn49ActionPerformed(evt);
-            }
-        });
-
-        btn48.setText("jButton1");
-        btn48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn48ActionPerformed(evt);
-            }
-        });
-
-        btn50.setText("jButton1");
-        btn50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn50ActionPerformed(evt);
-            }
-        });
-
-        btn73.setText("jButton1");
-        btn73.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn73MouseEntered(evt);
-            }
-        });
-        btn73.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn73ActionPerformed(evt);
-            }
-        });
-
-        btn51.setText("jButton1");
-        btn51.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn51ActionPerformed(evt);
-            }
-        });
-
-        btn74.setText("jButton1");
-        btn74.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn74ActionPerformed(evt);
-            }
-        });
-
-        btn52.setText("jButton1");
-        btn52.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn52ActionPerformed(evt);
-            }
-        });
-
-        btn75.setText("jButton1");
-        btn75.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn75ActionPerformed(evt);
-            }
-        });
-
-        btn53.setText("jButton1");
-        btn53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn53ActionPerformed(evt);
-            }
-        });
-
-        btn54.setText("jButton1");
-        btn54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn54ActionPerformed(evt);
-            }
-        });
-
-        btn55.setText("jButton1");
-        btn55.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn55ActionPerformed(evt);
-            }
-        });
-
-        btn56.setText("jButton1");
-        btn56.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn56ActionPerformed(evt);
-            }
-        });
-
-        btn76.setText("jButton1");
-        btn76.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn76ActionPerformed(evt);
-            }
-        });
-
-        btn77.setText("jButton1");
-        btn77.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn77ActionPerformed(evt);
-            }
-        });
-
-        btn78.setText("jButton1");
-        btn78.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn78ActionPerformed(evt);
-            }
-        });
-
-        btn79.setText("jButton1");
-        btn79.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn79ActionPerformed(evt);
-            }
-        });
-
-        btn57.setText("jButton1");
-        btn57.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn57ActionPerformed(evt);
-            }
-        });
-
-        btn80.setText("jButton1");
-        btn80.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn80ActionPerformed(evt);
-            }
-        });
-
-        btn58.setText("jButton1");
-        btn58.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn58ActionPerformed(evt);
-            }
-        });
-
-        btn81.setText("jButton1");
-        btn81.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn81ActionPerformed(evt);
-            }
-        });
-
-        btn59.setText("jButton1");
-        btn59.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn59ActionPerformed(evt);
-            }
-        });
-
-        btn82.setText("jButton1");
-        btn82.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn82ActionPerformed(evt);
-            }
-        });
-
-        btn60.setText("jButton1");
-        btn60.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn60ActionPerformed(evt);
-            }
-        });
-
-        btn83.setText("jButton1");
-        btn83.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn83ActionPerformed(evt);
-            }
-        });
-
-        btn61.setText("jButton1");
-        btn61.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn61MouseEntered(evt);
-            }
-        });
-        btn61.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn61ActionPerformed(evt);
-            }
-        });
-
-        btn84.setText("jButton1");
-        btn84.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn84ActionPerformed(evt);
-            }
-        });
-
-        btn62.setText("jButton1");
-        btn62.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn62ActionPerformed(evt);
-            }
-        });
-
-        btn85.setText("jButton1");
-        btn85.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btn85MouseEntered(evt);
-            }
-        });
-        btn85.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn85ActionPerformed(evt);
-            }
-        });
-
-        btn63.setText("jButton1");
-        btn63.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn63ActionPerformed(evt);
-            }
-        });
-
-        btn64.setText("jButton1");
-        btn64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn64ActionPerformed(evt);
-            }
-        });
-
-        btn65.setText("jButton1");
-        btn65.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn65ActionPerformed(evt);
-            }
-        });
-
-        btn66.setText("jButton1");
-        btn66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn66ActionPerformed(evt);
-            }
-        });
-
-        btn86.setText("jButton1");
-        btn86.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn86ActionPerformed(evt);
-            }
-        });
-
-        btn87.setText("jButton1");
-        btn87.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn87ActionPerformed(evt);
-            }
-        });
-
-        btn88.setText("jButton1");
-        btn88.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn88ActionPerformed(evt);
-            }
-        });
-
-        btn89.setText("jButton1");
-        btn89.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn89ActionPerformed(evt);
-            }
-        });
-
-        btn67.setText("jButton1");
-        btn67.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn67ActionPerformed(evt);
-            }
-        });
-
-        btn90.setText("jButton1");
-        btn90.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn90ActionPerformed(evt);
-            }
-        });
-
-        btn68.setText("jButton1");
-        btn68.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn68ActionPerformed(evt);
-            }
-        });
-
-        btn91.setText("jButton1");
-        btn91.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn91ActionPerformed(evt);
-            }
-        });
-
-        btn69.setText("jButton1");
-        btn69.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn69ActionPerformed(evt);
-            }
-        });
-
-        btn92.setText("jButton1");
-        btn92.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn92ActionPerformed(evt);
-            }
-        });
-
-        btn25.setText("jButton1");
         btn25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 btn25MouseEntered(evt);
@@ -854,320 +579,2618 @@ public class TelaOdontograma1 extends javax.swing.JInternalFrame {
             }
         });
 
-        btn93.setText("jButton1");
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn21, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn21, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn22, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn23, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn24, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel4);
+        jPanel4.setBounds(478, 64, 90, 132);
+
+        jPanel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn16MouseEntered(evt);
+            }
+        });
+        btn16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn16ActionPerformed(evt);
+            }
+        });
+
+        btn17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn17MouseEntered(evt);
+            }
+        });
+        btn17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn17ActionPerformed(evt);
+            }
+        });
+
+        btn18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn18MouseEntered(evt);
+            }
+        });
+        btn18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn18ActionPerformed(evt);
+            }
+        });
+
+        btn19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn19MouseEntered(evt);
+            }
+        });
+        btn19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn19ActionPerformed(evt);
+            }
+        });
+
+        btn20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn20MouseEntered(evt);
+            }
+        });
+        btn20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn20ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn16, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn16, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn17, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn18, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn19, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn20, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel3);
+        jPanel3.setBounds(694, 64, 90, 132);
+
+        jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn36.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn36MouseEntered(evt);
+            }
+        });
+        btn36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn36ActionPerformed(evt);
+            }
+        });
+
+        btn37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn37MouseEntered(evt);
+            }
+        });
+        btn37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn37ActionPerformed(evt);
+            }
+        });
+
+        btn38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn38MouseEntered(evt);
+            }
+        });
+        btn38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn38ActionPerformed(evt);
+            }
+        });
+
+        btn39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn39MouseEntered(evt);
+            }
+        });
+        btn39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn39ActionPerformed(evt);
+            }
+        });
+
+        btn40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn40MouseEntered(evt);
+            }
+        });
+        btn40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn40ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn36, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn38, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn36, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn37, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn38, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn39, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn40, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel7);
+        jPanel7.setBounds(800, 70, 90, 132);
+
+        jPanel6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn31.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn31MouseEntered(evt);
+            }
+        });
+        btn31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn31ActionPerformed(evt);
+            }
+        });
+
+        btn32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn32MouseEntered(evt);
+            }
+        });
+        btn32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn32ActionPerformed(evt);
+            }
+        });
+
+        btn33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn33MouseEntered(evt);
+            }
+        });
+        btn33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn33ActionPerformed(evt);
+            }
+        });
+
+        btn34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn34MouseEntered(evt);
+            }
+        });
+        btn34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn34ActionPerformed(evt);
+            }
+        });
+
+        btn35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn35MouseEntered(evt);
+            }
+        });
+        btn35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn35ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn31, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn31, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn32, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn33, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn34, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn35, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel6);
+        jPanel6.setBounds(1770, 70, 90, 132);
+
+        jPanel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn26MouseEntered(evt);
+            }
+        });
+        btn26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn26ActionPerformed(evt);
+            }
+        });
+
+        btn27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn27MouseEntered(evt);
+            }
+        });
+        btn27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn27ActionPerformed(evt);
+            }
+        });
+
+        btn28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn28MouseEntered(evt);
+            }
+        });
+        btn28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn28ActionPerformed(evt);
+            }
+        });
+
+        btn29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn29MouseEntered(evt);
+            }
+        });
+        btn29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn29ActionPerformed(evt);
+            }
+        });
+
+        btn30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn30MouseEntered(evt);
+            }
+        });
+        btn30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn30ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn26, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn26, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn27, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn29, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn30, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel5);
+        jPanel5.setBounds(262, 64, 90, 132);
+
+        jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn41.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn41MouseEntered(evt);
+            }
+        });
+        btn41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn41ActionPerformed(evt);
+            }
+        });
+
+        btn42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn42MouseEntered(evt);
+            }
+        });
+        btn42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn42ActionPerformed(evt);
+            }
+        });
+
+        btn43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn43MouseEntered(evt);
+            }
+        });
+        btn43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn43ActionPerformed(evt);
+            }
+        });
+
+        btn44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn44MouseEntered(evt);
+            }
+        });
+        btn44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn44ActionPerformed(evt);
+            }
+        });
+
+        btn45.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn45MouseEntered(evt);
+            }
+        });
+        btn45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn45ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn41, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn41, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn42, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn43, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn44, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn45, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel8);
+        jPanel8.setBounds(370, 64, 90, 132);
+
+        jPanel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn74MouseEntered(evt);
+            }
+        });
+        btn74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn74ActionPerformed(evt);
+            }
+        });
+
+        btn75.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn75MouseEntered(evt);
+            }
+        });
+        btn75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn75ActionPerformed(evt);
+            }
+        });
+
+        btn76.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn76MouseEntered(evt);
+            }
+        });
+        btn76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn76ActionPerformed(evt);
+            }
+        });
+
+        btn77.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn77MouseEntered(evt);
+            }
+        });
+        btn77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn77ActionPerformed(evt);
+            }
+        });
+
+        btn78.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn78MouseEntered(evt);
+            }
+        });
+        btn78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn78ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn74, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn75, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn76, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn74, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn75, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn76, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn77, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn78, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel14);
+        jPanel14.setBounds(910, 70, 90, 132);
+
+        jPanel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn79MouseEntered(evt);
+            }
+        });
+        btn79.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn79ActionPerformed(evt);
+            }
+        });
+
+        btn80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn80MouseEntered(evt);
+            }
+        });
+        btn80.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn80ActionPerformed(evt);
+            }
+        });
+
+        btn81.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn81MouseEntered(evt);
+            }
+        });
+        btn81.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn81ActionPerformed(evt);
+            }
+        });
+
+        btn82.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn82MouseEntered(evt);
+            }
+        });
+        btn82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn82ActionPerformed(evt);
+            }
+        });
+
+        btn83.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn83MouseEntered(evt);
+            }
+        });
+        btn83.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn83ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn79, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn83, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn79, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn80, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn81, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn82, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn83, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel15);
+        jPanel15.setBounds(1020, 70, 90, 132);
+
+        jPanel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn51MouseEntered(evt);
+            }
+        });
+        btn51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn51ActionPerformed(evt);
+            }
+        });
+
+        btn52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn52MouseEntered(evt);
+            }
+        });
+        btn52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn52ActionPerformed(evt);
+            }
+        });
+
+        btn53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn53MouseEntered(evt);
+            }
+        });
+        btn53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn53ActionPerformed(evt);
+            }
+        });
+
+        btn54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn54MouseEntered(evt);
+            }
+        });
+        btn54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn54ActionPerformed(evt);
+            }
+        });
+
+        btn55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn55MouseEntered(evt);
+            }
+        });
+        btn55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn55ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn51, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn53, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn54, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn55, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn51, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn52, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn53, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn54, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn55, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel10);
+        jPanel10.setBounds(1130, 70, 90, 132);
+
+        jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn66.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn66MouseEntered(evt);
+            }
+        });
+        btn66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn66ActionPerformed(evt);
+            }
+        });
+
+        btn67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn67MouseEntered(evt);
+            }
+        });
+        btn67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn67ActionPerformed(evt);
+            }
+        });
+
+        btn68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn68MouseEntered(evt);
+            }
+        });
+        btn68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn68ActionPerformed(evt);
+            }
+        });
+
+        btn69.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn69MouseEntered(evt);
+            }
+        });
+        btn69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn69ActionPerformed(evt);
+            }
+        });
+
+        btn73.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn73MouseEntered(evt);
+            }
+        });
+        btn73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn73ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn66, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn68, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn73, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn66, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn67, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn68, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn69, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn73, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel13);
+        jPanel13.setBounds(1230, 70, 90, 132);
+
+        jPanel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn56MouseEntered(evt);
+            }
+        });
+        btn56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn56ActionPerformed(evt);
+            }
+        });
+
+        btn57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn57MouseEntered(evt);
+            }
+        });
+        btn57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn57ActionPerformed(evt);
+            }
+        });
+
+        btn58.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn58MouseEntered(evt);
+            }
+        });
+        btn58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn58ActionPerformed(evt);
+            }
+        });
+
+        btn59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn59MouseEntered(evt);
+            }
+        });
+        btn59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn59ActionPerformed(evt);
+            }
+        });
+
+        btn60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn60MouseEntered(evt);
+            }
+        });
+        btn60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn60ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn56, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn57, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn58, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn56, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn57, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn58, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn59, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn60, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel11);
+        jPanel11.setBounds(1450, 70, 90, 132);
+
+        jPanel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn61MouseEntered(evt);
+            }
+        });
+        btn61.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn61ActionPerformed(evt);
+            }
+        });
+
+        btn62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn62MouseEntered(evt);
+            }
+        });
+        btn62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn62ActionPerformed(evt);
+            }
+        });
+
+        btn63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn63MouseEntered(evt);
+            }
+        });
+        btn63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn63ActionPerformed(evt);
+            }
+        });
+
+        btn64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn64MouseEntered(evt);
+            }
+        });
+        btn64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn64ActionPerformed(evt);
+            }
+        });
+
+        btn65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn65MouseEntered(evt);
+            }
+        });
+        btn65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn65ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn61, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn61, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn62, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn63, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn64, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn65, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel12);
+        jPanel12.setBounds(1560, 70, 90, 132);
+
+        jPanel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn46.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn46MouseEntered(evt);
+            }
+        });
+        btn46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn46ActionPerformed(evt);
+            }
+        });
+
+        btn47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn47MouseEntered(evt);
+            }
+        });
+        btn47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn47ActionPerformed(evt);
+            }
+        });
+
+        btn48.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn48MouseEntered(evt);
+            }
+        });
+        btn48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn48ActionPerformed(evt);
+            }
+        });
+
+        btn49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn49MouseEntered(evt);
+            }
+        });
+        btn49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn49ActionPerformed(evt);
+            }
+        });
+
+        btn50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn50MouseEntered(evt);
+            }
+        });
+        btn50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn50ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn46, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn47, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn48, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn46, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn47, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn48, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn49, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn50, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel9);
+        jPanel9.setBounds(1670, 70, 90, 132);
+
+        jPanel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn84.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn84MouseEntered(evt);
+            }
+        });
+        btn84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn84ActionPerformed(evt);
+            }
+        });
+
+        btn85.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn85MouseEntered(evt);
+            }
+        });
+        btn85.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn85ActionPerformed(evt);
+            }
+        });
+
+        btn86.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn86MouseEntered(evt);
+            }
+        });
+        btn86.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn86ActionPerformed(evt);
+            }
+        });
+
+        btn87.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn87MouseEntered(evt);
+            }
+        });
+        btn87.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn87ActionPerformed(evt);
+            }
+        });
+
+        btn88.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn88MouseEntered(evt);
+            }
+        });
+        btn88.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn88ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn84, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn86, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn84, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn85, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn86, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn87, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn88, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel16);
+        jPanel16.setBounds(1340, 70, 90, 132);
+
+        jPanel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn101.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn101MouseEntered(evt);
+            }
+        });
+        btn101.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn101ActionPerformed(evt);
+            }
+        });
+
+        btn102.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn102MouseEntered(evt);
+            }
+        });
+        btn102.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn102ActionPerformed(evt);
+            }
+        });
+
+        btn103.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn103MouseEntered(evt);
+            }
+        });
+        btn103.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn103ActionPerformed(evt);
+            }
+        });
+
+        btn104.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn104MouseEntered(evt);
+            }
+        });
+        btn104.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn104ActionPerformed(evt);
+            }
+        });
+
+        btn105.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn105MouseEntered(evt);
+            }
+        });
+        btn105.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn105ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn101, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn102, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn103, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn104, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn105, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn101, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn102, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn103, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn104, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn105, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel18);
+        jPanel18.setBounds(580, 490, 90, 132);
+
+        jPanel27.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn146.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn146MouseEntered(evt);
+            }
+        });
+        btn146.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn146ActionPerformed(evt);
+            }
+        });
+
+        btn147.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn147MouseEntered(evt);
+            }
+        });
+        btn147.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn147ActionPerformed(evt);
+            }
+        });
+
+        btn148.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn148MouseEntered(evt);
+            }
+        });
+        btn148.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn148ActionPerformed(evt);
+            }
+        });
+
+        btn149.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn149MouseEntered(evt);
+            }
+        });
+        btn149.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn149ActionPerformed(evt);
+            }
+        });
+
+        btn150.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn150MouseEntered(evt);
+            }
+        });
+        btn150.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn150ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
+        jPanel27.setLayout(jPanel27Layout);
+        jPanel27Layout.setHorizontalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn146, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn147, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn148, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn149, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn150, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel27Layout.setVerticalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn146, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn147, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn148, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn149, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn150, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel27);
+        jPanel27.setBounds(1120, 500, 90, 132);
+
+        jPanel29.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn156.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn156MouseEntered(evt);
+            }
+        });
+        btn156.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn156ActionPerformed(evt);
+            }
+        });
+
+        btn157.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn157MouseEntered(evt);
+            }
+        });
+        btn157.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn157ActionPerformed(evt);
+            }
+        });
+
+        btn158.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn158MouseEntered(evt);
+            }
+        });
+        btn158.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn158ActionPerformed(evt);
+            }
+        });
+
+        btn159.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn159MouseEntered(evt);
+            }
+        });
+        btn159.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn159ActionPerformed(evt);
+            }
+        });
+
+        btn160.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn160MouseEntered(evt);
+            }
+        });
+        btn160.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn160ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
+        jPanel29.setLayout(jPanel29Layout);
+        jPanel29Layout.setHorizontalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn156, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn157, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn158, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn159, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn160, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel29Layout.setVerticalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel29Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn156, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn157, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn158, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn159, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn160, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel29);
+        jPanel29.setBounds(1440, 500, 90, 132);
+
+        jPanel23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn126.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn126MouseEntered(evt);
+            }
+        });
+        btn126.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn126ActionPerformed(evt);
+            }
+        });
+
+        btn127.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn127MouseEntered(evt);
+            }
+        });
+        btn127.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn127ActionPerformed(evt);
+            }
+        });
+
+        btn128.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn128MouseEntered(evt);
+            }
+        });
+        btn128.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn128ActionPerformed(evt);
+            }
+        });
+
+        btn129.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn129MouseEntered(evt);
+            }
+        });
+        btn129.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn129ActionPerformed(evt);
+            }
+        });
+
+        btn130.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn130MouseEntered(evt);
+            }
+        });
+        btn130.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn130ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn126, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn127, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn128, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn129, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn130, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel23Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn126, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn127, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn128, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn129, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn130, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel23);
+        jPanel23.setBounds(250, 490, 90, 132);
+
+        jPanel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn106.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn106MouseEntered(evt);
+            }
+        });
+        btn106.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn106ActionPerformed(evt);
+            }
+        });
+
+        btn107.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn107MouseEntered(evt);
+            }
+        });
+        btn107.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn107ActionPerformed(evt);
+            }
+        });
+
+        btn108.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn108MouseEntered(evt);
+            }
+        });
+        btn108.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn108ActionPerformed(evt);
+            }
+        });
+
+        btn109.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn109MouseEntered(evt);
+            }
+        });
+        btn109.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn109ActionPerformed(evt);
+            }
+        });
+
+        btn110.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn110MouseEntered(evt);
+            }
+        });
+        btn110.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn110ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
+        jPanel19.setLayout(jPanel19Layout);
+        jPanel19Layout.setHorizontalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn106, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn107, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn108, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn109, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn110, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel19Layout.setVerticalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn106, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn107, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn108, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn109, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn110, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel19);
+        jPanel19.setBounds(470, 490, 90, 132);
+
+        jPanel24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn131.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn131MouseEntered(evt);
+            }
+        });
+        btn131.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn131ActionPerformed(evt);
+            }
+        });
+
+        btn132.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn132MouseEntered(evt);
+            }
+        });
+        btn132.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn132ActionPerformed(evt);
+            }
+        });
+
+        btn133.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn133MouseEntered(evt);
+            }
+        });
+        btn133.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn133ActionPerformed(evt);
+            }
+        });
+
+        btn134.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn134MouseEntered(evt);
+            }
+        });
+        btn134.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn134ActionPerformed(evt);
+            }
+        });
+
+        btn135.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn135MouseEntered(evt);
+            }
+        });
+        btn135.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn135ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn131, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn132, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn133, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn134, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn135, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn131, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn132, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn133, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn134, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn135, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel24);
+        jPanel24.setBounds(360, 490, 90, 132);
+
+        jPanel30.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn161.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn161MouseEntered(evt);
+            }
+        });
+        btn161.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn161ActionPerformed(evt);
+            }
+        });
+
+        btn162.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn162MouseEntered(evt);
+            }
+        });
+        btn162.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn162ActionPerformed(evt);
+            }
+        });
+
+        btn163.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn163MouseEntered(evt);
+            }
+        });
+        btn163.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn163ActionPerformed(evt);
+            }
+        });
+
+        btn164.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn164MouseEntered(evt);
+            }
+        });
+        btn164.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn164ActionPerformed(evt);
+            }
+        });
+
+        btn165.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn165MouseEntered(evt);
+            }
+        });
+        btn165.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn165ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
+        jPanel30.setLayout(jPanel30Layout);
+        jPanel30Layout.setHorizontalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn161, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn162, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn163, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn164, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn165, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel30Layout.setVerticalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel30Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn161, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn162, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn163, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn164, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn165, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel30);
+        jPanel30.setBounds(1550, 500, 90, 132);
+
+        jPanel20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn111.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn111MouseEntered(evt);
+            }
+        });
+        btn111.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn111ActionPerformed(evt);
+            }
+        });
+
+        btn112.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn112MouseEntered(evt);
+            }
+        });
+        btn112.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn112ActionPerformed(evt);
+            }
+        });
+
+        btn113.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn113MouseEntered(evt);
+            }
+        });
+        btn113.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn113ActionPerformed(evt);
+            }
+        });
+
+        btn114.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn114MouseEntered(evt);
+            }
+        });
+        btn114.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn114ActionPerformed(evt);
+            }
+        });
+
+        btn115.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn115MouseEntered(evt);
+            }
+        });
+        btn115.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn115ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
+        jPanel20.setLayout(jPanel20Layout);
+        jPanel20Layout.setHorizontalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn111, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn112, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn113, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn114, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn115, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel20Layout.setVerticalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn111, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn112, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn113, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn114, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn115, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel20);
+        jPanel20.setBounds(690, 490, 90, 132);
+
+        jPanel32.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn171.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn171MouseEntered(evt);
+            }
+        });
+        btn171.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn171ActionPerformed(evt);
+            }
+        });
+
+        btn172.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn172MouseEntered(evt);
+            }
+        });
+        btn172.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn172ActionPerformed(evt);
+            }
+        });
+
+        btn173.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn173MouseEntered(evt);
+            }
+        });
+        btn173.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn173ActionPerformed(evt);
+            }
+        });
+
+        btn174.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn174MouseEntered(evt);
+            }
+        });
+        btn174.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn174ActionPerformed(evt);
+            }
+        });
+
+        btn175.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn175MouseEntered(evt);
+            }
+        });
+        btn175.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn175ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn171, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn172, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn173, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn174, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn175, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn171, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn172, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn173, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn174, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn175, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel32);
+        jPanel32.setBounds(1330, 500, 90, 132);
+
+        jPanel26.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn141.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn141MouseEntered(evt);
+            }
+        });
+        btn141.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn141ActionPerformed(evt);
+            }
+        });
+
+        btn142.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn142MouseEntered(evt);
+            }
+        });
+        btn142.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn142ActionPerformed(evt);
+            }
+        });
+
+        btn143.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn143MouseEntered(evt);
+            }
+        });
+        btn143.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn143ActionPerformed(evt);
+            }
+        });
+
+        btn144.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn144MouseEntered(evt);
+            }
+        });
+        btn144.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn144ActionPerformed(evt);
+            }
+        });
+
+        btn145.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn145MouseEntered(evt);
+            }
+        });
+        btn145.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn145ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
+        jPanel26.setLayout(jPanel26Layout);
+        jPanel26Layout.setHorizontalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn141, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn142, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn143, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn144, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn145, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel26Layout.setVerticalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn141, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn142, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn143, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn144, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn145, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel26);
+        jPanel26.setBounds(1010, 500, 90, 132);
+
+        jPanel22.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn121.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn121MouseEntered(evt);
+            }
+        });
+        btn121.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn121ActionPerformed(evt);
+            }
+        });
+
+        btn122.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn122MouseEntered(evt);
+            }
+        });
+        btn122.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn122ActionPerformed(evt);
+            }
+        });
+
+        btn123.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn123MouseEntered(evt);
+            }
+        });
+        btn123.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn123ActionPerformed(evt);
+            }
+        });
+
+        btn124.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn124MouseEntered(evt);
+            }
+        });
+        btn124.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn124ActionPerformed(evt);
+            }
+        });
+
+        btn125.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn125MouseEntered(evt);
+            }
+        });
+        btn125.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn125ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
+        jPanel22.setLayout(jPanel22Layout);
+        jPanel22Layout.setHorizontalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn121, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn122, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn123, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn124, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn125, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel22Layout.setVerticalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn121, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn122, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn123, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn124, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn125, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel22);
+        jPanel22.setBounds(1760, 500, 90, 132);
+
+        jPanel21.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn116.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn116MouseEntered(evt);
+            }
+        });
+        btn116.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn116ActionPerformed(evt);
+            }
+        });
+
+        btn117.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn117MouseEntered(evt);
+            }
+        });
+        btn117.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn117ActionPerformed(evt);
+            }
+        });
+
+        btn118.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn118MouseEntered(evt);
+            }
+        });
+        btn118.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn118ActionPerformed(evt);
+            }
+        });
+
+        btn119.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn119MouseEntered(evt);
+            }
+        });
+        btn119.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn119ActionPerformed(evt);
+            }
+        });
+
+        btn120.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn120MouseEntered(evt);
+            }
+        });
+        btn120.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn120ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn116, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn117, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn118, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn119, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn120, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn116, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn117, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn118, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn119, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn120, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel21);
+        jPanel21.setBounds(790, 500, 90, 132);
+
+        jPanel31.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn166.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn166MouseEntered(evt);
+            }
+        });
+        btn166.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn166ActionPerformed(evt);
+            }
+        });
+
+        btn167.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn167MouseEntered(evt);
+            }
+        });
+        btn167.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn167ActionPerformed(evt);
+            }
+        });
+
+        btn168.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn168MouseEntered(evt);
+            }
+        });
+        btn168.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn168ActionPerformed(evt);
+            }
+        });
+
+        btn169.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn169MouseEntered(evt);
+            }
+        });
+        btn169.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn169ActionPerformed(evt);
+            }
+        });
+
+        btn170.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn170MouseEntered(evt);
+            }
+        });
+        btn170.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn170ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
+        jPanel31.setLayout(jPanel31Layout);
+        jPanel31Layout.setHorizontalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn166, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn167, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn168, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn169, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn170, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel31Layout.setVerticalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel31Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn166, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn167, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn168, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn169, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn170, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel31);
+        jPanel31.setBounds(1660, 500, 90, 132);
+
+        jPanel28.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn151.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn151MouseEntered(evt);
+            }
+        });
+        btn151.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn151ActionPerformed(evt);
+            }
+        });
+
+        btn152.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn152MouseEntered(evt);
+            }
+        });
+        btn152.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn152ActionPerformed(evt);
+            }
+        });
+
+        btn153.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn153MouseEntered(evt);
+            }
+        });
+        btn153.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn153ActionPerformed(evt);
+            }
+        });
+
+        btn154.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn154MouseEntered(evt);
+            }
+        });
+        btn154.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn154ActionPerformed(evt);
+            }
+        });
+
+        btn155.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn155MouseEntered(evt);
+            }
+        });
+        btn155.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn155ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
+        jPanel28.setLayout(jPanel28Layout);
+        jPanel28Layout.setHorizontalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn151, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn152, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn153, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn154, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn155, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel28Layout.setVerticalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel28Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btn151, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn152, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn153, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn154, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn155, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel28);
+        jPanel28.setBounds(1220, 500, 90, 132);
+
+        jPanel17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn89.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn89MouseEntered(evt);
+            }
+        });
+        btn89.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn89ActionPerformed(evt);
+            }
+        });
+
+        btn90.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn90MouseEntered(evt);
+            }
+        });
+        btn90.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn90ActionPerformed(evt);
+            }
+        });
+
+        btn91.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn91MouseEntered(evt);
+            }
+        });
+        btn91.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn91ActionPerformed(evt);
+            }
+        });
+
+        btn92.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn92MouseEntered(evt);
+            }
+        });
+        btn92.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn92ActionPerformed(evt);
+            }
+        });
+
+        btn93.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn93MouseEntered(evt);
+            }
+        });
         btn93.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn93ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn26, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn29, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn32, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn35, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn38, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn41, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn44, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn47, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn74, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn77, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn80, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn83, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn86, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn89, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn92, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn27, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn33, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn36, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn39, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn42, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn45, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn48, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn75, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn78, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn81, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn84, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn87, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn90, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn93, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(195, 195, 195)
-                                        .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(btn31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn37, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn40, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn43, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn46, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(20, 20, 20)
-                                        .addComponent(btn73, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn76, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn79, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn82, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn85, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn88, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(10, 10, 10)
-                                        .addComponent(btn91, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnteste, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(226, 226, 226)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn49, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn52, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn55, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn58, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn61, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn64, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn67, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn50, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn53, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn56, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn59, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn62, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn65, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn68, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btn9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn24, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addComponent(btn51, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn54, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn57, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn60, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn63, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn66, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(10, 10, 10)
-                                .addComponent(btn69, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn89, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn90, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn91, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn93, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(comboBoxCores, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnteste, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn10, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn16, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn19, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn22, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn49, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn52, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn55, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn58, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn61, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn64, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn67, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(10, 10, 10)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn8)
-                            .addComponent(btn11)
-                            .addComponent(btn14)
-                            .addComponent(btn17)
-                            .addComponent(btn20)
-                            .addComponent(btn23)
-                            .addComponent(btn50)
-                            .addComponent(btn53)
-                            .addComponent(btn56)
-                            .addComponent(btn59)
-                            .addComponent(btn62)
-                            .addComponent(btn65)
-                            .addComponent(btn68))
-                        .addGap(1, 1, 1)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn9)
-                            .addComponent(btn12)
-                            .addComponent(btn15)
-                            .addComponent(btn18)
-                            .addComponent(btn21)
-                            .addComponent(btn24)
-                            .addComponent(btn51)
-                            .addComponent(btn54)
-                            .addComponent(btn57)
-                            .addComponent(btn60)
-                            .addComponent(btn63)
-                            .addComponent(btn66)
-                            .addComponent(btn69)))
-                    .addComponent(btn4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn25, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn28, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn31, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn34, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn37, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn40, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn43, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn46, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn73, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn76, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn79, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn82, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn85, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn88, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn91, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn26)
-                    .addComponent(btn29)
-                    .addComponent(btn32)
-                    .addComponent(btn35)
-                    .addComponent(btn38)
-                    .addComponent(btn41)
-                    .addComponent(btn44)
-                    .addComponent(btn47)
-                    .addComponent(btn74)
-                    .addComponent(btn77)
-                    .addComponent(btn80)
-                    .addComponent(btn83)
-                    .addComponent(btn86)
-                    .addComponent(btn89)
-                    .addComponent(btn92))
-                .addGap(1, 1, 1)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn27)
-                    .addComponent(btn30)
-                    .addComponent(btn33)
-                    .addComponent(btn36)
-                    .addComponent(btn39)
-                    .addComponent(btn42)
-                    .addComponent(btn45)
-                    .addComponent(btn48)
-                    .addComponent(btn75)
-                    .addComponent(btn78)
-                    .addComponent(btn81)
-                    .addComponent(btn84)
-                    .addComponent(btn87)
-                    .addComponent(btn90)
-                    .addComponent(btn93))
+                .addComponent(btn89, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn90, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn91, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn92, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn93, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        getContentPane().add(jPanel17);
+        jPanel17.setBounds(150, 490, 90, 132);
+
+        jPanel25.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn136.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn136MouseEntered(evt);
+            }
+        });
+        btn136.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn136ActionPerformed(evt);
+            }
+        });
+
+        btn137.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn137MouseEntered(evt);
+            }
+        });
+        btn137.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn137ActionPerformed(evt);
+            }
+        });
+
+        btn138.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn138MouseEntered(evt);
+            }
+        });
+        btn138.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn138ActionPerformed(evt);
+            }
+        });
+
+        btn139.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn139MouseEntered(evt);
+            }
+        });
+        btn139.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn139ActionPerformed(evt);
+            }
+        });
+
+        btn140.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn140MouseEntered(evt);
+            }
+        });
+        btn140.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn140ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
+        jPanel25.setLayout(jPanel25Layout);
+        jPanel25Layout.setHorizontalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn136, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn137, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn138, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn139, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn140, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel25Layout.setVerticalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel25Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn136, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn137, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn138, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn139, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn140, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel25);
+        jPanel25.setBounds(900, 500, 90, 132);
+
+        jPanel33.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        btn176.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn176MouseEntered(evt);
+            }
+        });
+        btn176.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn176ActionPerformed(evt);
+            }
+        });
+
+        btn177.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn177MouseEntered(evt);
+            }
+        });
+        btn177.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn177ActionPerformed(evt);
+            }
+        });
+
+        btn178.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn178MouseEntered(evt);
+            }
+        });
+        btn178.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn178ActionPerformed(evt);
+            }
+        });
+
+        btn179.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn179MouseEntered(evt);
+            }
+        });
+        btn179.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn179ActionPerformed(evt);
+            }
+        });
+
+        btn180.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btn180MouseEntered(evt);
+            }
+        });
+        btn180.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn180ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(btn176, javax.swing.GroupLayout.DEFAULT_SIZE, 84, Short.MAX_VALUE)
+            .addComponent(btn177, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn178, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn179, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btn180, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn176, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn177, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn178, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn179, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn180, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel33);
+        jPanel33.setBounds(40, 490, 90, 132);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 Color corSelecionada = null;
-    private void btn26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn26ActionPerformed
-        if (corSelecionada != null) {
-            btn26.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn26ActionPerformed
-
     private void btn1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn1MouseEntered
         ///Teste para oq os botoes irão fazer quando o cliente clicar
         ///Color corAtual = btn1.getBackground();
@@ -1236,164 +3259,6 @@ Color corSelecionada = null;
 
     }//GEN-LAST:event_btntesteAncestorAdded
 
-    private void btn27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn27ActionPerformed
-        if (corSelecionada != null) {
-            btn27.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn27ActionPerformed
-
-    private void btn28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn28ActionPerformed
-        if (corSelecionada != null) {
-            btn28.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn28ActionPerformed
-
-    private void btn29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn29ActionPerformed
-        if (corSelecionada != null) {
-            btn29.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn29ActionPerformed
-
-    private void btn30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn30ActionPerformed
-        if (corSelecionada != null) {
-            btn30.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn30ActionPerformed
-
-    private void btn31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn31ActionPerformed
-        if (corSelecionada != null) {
-            btn31.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn31ActionPerformed
-
-    private void btn32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn32ActionPerformed
-        if (corSelecionada != null) {
-            btn32.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn32ActionPerformed
-
-    private void btn33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn33ActionPerformed
-        if (corSelecionada != null) {
-            btn33.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn33ActionPerformed
-
-    private void btn34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn34ActionPerformed
-        if (corSelecionada != null) {
-            btn34.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn34ActionPerformed
-
-    private void btn35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn35ActionPerformed
-        if (corSelecionada != null) {
-            btn35.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn35ActionPerformed
-
-    private void btn13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn13MouseEntered
-
-    }//GEN-LAST:event_btn13MouseEntered
-
-    private void btn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn13ActionPerformed
-        if (corSelecionada != null) {
-            btn13.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn13ActionPerformed
-
-    private void btn36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn36ActionPerformed
-        if (corSelecionada != null) {
-            btn36.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn36ActionPerformed
-
-    private void btn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn14ActionPerformed
-        if (corSelecionada != null) {
-            btn14.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn14ActionPerformed
-
-    private void btn37MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn37MouseEntered
-
-    }//GEN-LAST:event_btn37MouseEntered
-
-    private void btn37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn37ActionPerformed
-        if (corSelecionada != null) {
-            btn37.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn37ActionPerformed
-
-    private void btn15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn15ActionPerformed
-        if (corSelecionada != null) {
-            btn15.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn15ActionPerformed
-
-    private void btn38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn38ActionPerformed
-        if (corSelecionada != null) {
-            btn38.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn38ActionPerformed
-
-    private void btn16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn16ActionPerformed
-        if (corSelecionada != null) {
-            btn16.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn16ActionPerformed
-
-    private void btn39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn39ActionPerformed
-        if (corSelecionada != null) {
-            btn39.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn39ActionPerformed
-
-    private void btn17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn17ActionPerformed
-        if (corSelecionada != null) {
-            btn17.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn17ActionPerformed
-
-    private void btn40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn40ActionPerformed
-        if (corSelecionada != null) {
-            btn40.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn40ActionPerformed
-
-    private void btn18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn18ActionPerformed
-        if (corSelecionada != null) {
-            btn18.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn18ActionPerformed
-
-    private void btn41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn41ActionPerformed
-        if (corSelecionada != null) {
-            btn41.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn41ActionPerformed
-
-    private void btn19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn19ActionPerformed
-        if (corSelecionada != null) {
-            btn19.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn19ActionPerformed
-
-    private void btn20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn20ActionPerformed
-        if (corSelecionada != null) {
-            btn20.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn20ActionPerformed
-
-    private void btn21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn21ActionPerformed
-        if (corSelecionada != null) {
-            btn21.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn21ActionPerformed
-
-    private void btn22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn22ActionPerformed
-        if (corSelecionada != null) {
-            btn22.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn22ActionPerformed
-
     private void comboBoxCoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxCoresActionPerformed
 
         String corSelecionadaStr = comboBoxCores.getSelectedItem().toString();
@@ -1426,380 +3291,6 @@ Color corSelecionada = null;
         }
     }//GEN-LAST:event_comboBoxCoresActionPerformed
 
-    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
-        if (corSelecionada != null) {
-            btn4.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn4ActionPerformed
-
-    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
-        if (corSelecionada != null) {
-            btn7.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn7ActionPerformed
-
-    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
-        if (corSelecionada != null) {
-            btn8.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn8ActionPerformed
-
-    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
-        if (corSelecionada != null) {
-            btn9.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn9ActionPerformed
-
-    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
-        if (corSelecionada != null) {
-            btn10.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn10ActionPerformed
-
-    private void btn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn11ActionPerformed
-        if (corSelecionada != null) {
-            btn11.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn11ActionPerformed
-
-    private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed
-        if (corSelecionada != null) {
-            btn12.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn12ActionPerformed
-
-    private void btn42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn42ActionPerformed
-        if (corSelecionada != null) {
-            btn42.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn42ActionPerformed
-
-    private void btn43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn43ActionPerformed
-        if (corSelecionada != null) {
-            btn43.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn43ActionPerformed
-
-    private void btn44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn44ActionPerformed
-        if (corSelecionada != null) {
-            btn44.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn44ActionPerformed
-
-    private void btn45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn45ActionPerformed
-        if (corSelecionada != null) {
-            btn45.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn45ActionPerformed
-
-    private void btn23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn23ActionPerformed
-        if (corSelecionada != null) {
-            btn23.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn23ActionPerformed
-
-    private void btn46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn46ActionPerformed
-        if (corSelecionada != null) {
-            btn46.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn46ActionPerformed
-
-    private void btn24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn24ActionPerformed
-        if (corSelecionada != null) {
-            btn24.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn24ActionPerformed
-
-    private void btn47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn47ActionPerformed
-        if (corSelecionada != null) {
-            btn47.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn47ActionPerformed
-
-    private void btn49MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn49MouseEntered
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn49MouseEntered
-
-    private void btn49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn49ActionPerformed
-        if (corSelecionada != null) {
-            btn49.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn49ActionPerformed
-
-    private void btn48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn48ActionPerformed
-        if (corSelecionada != null) {
-            btn48.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn48ActionPerformed
-
-    private void btn50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn50ActionPerformed
-        if (corSelecionada != null) {
-            btn50.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn50ActionPerformed
-
-    private void btn73MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn73MouseEntered
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn73MouseEntered
-
-    private void btn73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn73ActionPerformed
-        if (corSelecionada != null) {
-            btn73.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn73ActionPerformed
-
-    private void btn51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn51ActionPerformed
-        if (corSelecionada != null) {
-            btn51.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn51ActionPerformed
-
-    private void btn74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn74ActionPerformed
-        if (corSelecionada != null) {
-            btn74.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn74ActionPerformed
-
-    private void btn52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn52ActionPerformed
-        if (corSelecionada != null) {
-            btn52.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn52ActionPerformed
-
-    private void btn75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn75ActionPerformed
-        if (corSelecionada != null) {
-            btn75.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn75ActionPerformed
-
-    private void btn53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn53ActionPerformed
-        if (corSelecionada != null) {
-            btn53.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn53ActionPerformed
-
-    private void btn54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn54ActionPerformed
-        if (corSelecionada != null) {
-            btn54.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn54ActionPerformed
-
-    private void btn55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn55ActionPerformed
-        if (corSelecionada != null) {
-            btn55.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn55ActionPerformed
-
-    private void btn56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn56ActionPerformed
-        if (corSelecionada != null) {
-            btn56.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn56ActionPerformed
-
-    private void btn76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn76ActionPerformed
-        if (corSelecionada != null) {
-            btn76.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn76ActionPerformed
-
-    private void btn77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn77ActionPerformed
-        if (corSelecionada != null) {
-            btn77.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn77ActionPerformed
-
-    private void btn78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn78ActionPerformed
-        if (corSelecionada != null) {
-            btn78.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn78ActionPerformed
-
-    private void btn79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn79ActionPerformed
-        if (corSelecionada != null) {
-            btn79.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn79ActionPerformed
-
-    private void btn57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn57ActionPerformed
-        if (corSelecionada != null) {
-            btn57.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn57ActionPerformed
-
-    private void btn80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn80ActionPerformed
-        if (corSelecionada != null) {
-            btn80.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn80ActionPerformed
-
-    private void btn58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn58ActionPerformed
-        if (corSelecionada != null) {
-            btn58.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn58ActionPerformed
-
-    private void btn81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn81ActionPerformed
-        if (corSelecionada != null) {
-            btn81.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn81ActionPerformed
-
-    private void btn59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn59ActionPerformed
-        if (corSelecionada != null) {
-            btn59.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn59ActionPerformed
-
-    private void btn82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn82ActionPerformed
-        if (corSelecionada != null) {
-            btn82.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn82ActionPerformed
-
-    private void btn60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn60ActionPerformed
-        if (corSelecionada != null) {
-            btn60.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn60ActionPerformed
-
-    private void btn83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn83ActionPerformed
-        if (corSelecionada != null) {
-            btn83.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn83ActionPerformed
-
-    private void btn61MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn61MouseEntered
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn61MouseEntered
-
-    private void btn61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn61ActionPerformed
-        if (corSelecionada != null) {
-            btn61.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn61ActionPerformed
-
-    private void btn84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn84ActionPerformed
-        if (corSelecionada != null) {
-            btn84.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn84ActionPerformed
-
-    private void btn62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn62ActionPerformed
-        if (corSelecionada != null) {
-            btn62.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn62ActionPerformed
-
-    private void btn85MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn85MouseEntered
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn85MouseEntered
-
-    private void btn85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn85ActionPerformed
-        if (corSelecionada != null) {
-            btn85.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn85ActionPerformed
-
-    private void btn63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn63ActionPerformed
-        if (corSelecionada != null) {
-            btn63.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn63ActionPerformed
-
-    private void btn64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn64ActionPerformed
-        if (corSelecionada != null) {
-            btn64.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn64ActionPerformed
-
-    private void btn65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn65ActionPerformed
-        if (corSelecionada != null) {
-            btn65.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn65ActionPerformed
-
-    private void btn66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn66ActionPerformed
-        if (corSelecionada != null) {
-            btn66.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn66ActionPerformed
-
-    private void btn86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn86ActionPerformed
-        if (corSelecionada != null) {
-            btn86.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn86ActionPerformed
-
-    private void btn87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn87ActionPerformed
-        if (corSelecionada != null) {
-            btn87.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn87ActionPerformed
-
-    private void btn88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn88ActionPerformed
-        if (corSelecionada != null) {
-            btn88.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn88ActionPerformed
-
-    private void btn89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn89ActionPerformed
-        if (corSelecionada != null) {
-            btn89.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn89ActionPerformed
-
-    private void btn67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn67ActionPerformed
-        if (corSelecionada != null) {
-            btn67.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn67ActionPerformed
-
-    private void btn90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn90ActionPerformed
-        if (corSelecionada != null) {
-            btn90.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn90ActionPerformed
-
-    private void btn68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn68ActionPerformed
-        if (corSelecionada != null) {
-            btn68.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn68ActionPerformed
-
-    private void btn91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn91ActionPerformed
-        if (corSelecionada != null) {
-            btn91.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn91ActionPerformed
-
-    private void btn69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn69ActionPerformed
-        if (corSelecionada != null) {
-            btn69.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn69ActionPerformed
-
-    private void btn92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn92ActionPerformed
-        if (corSelecionada != null) {
-            btn92.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn92ActionPerformed
-
-    private void btn25MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn25MouseEntered
-
-    }//GEN-LAST:event_btn25MouseEntered
-
-    private void btn25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn25ActionPerformed
-        if (corSelecionada != null) {
-            btn25.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn25ActionPerformed
-
-    private void btn93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn93ActionPerformed
-        if (corSelecionada != null) {
-            btn93.setBackground(corSelecionada);
-        }
-    }//GEN-LAST:event_btn93ActionPerformed
-
     private void btntesteMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btntesteMouseClicked
         // TODO add your handling code here:
         //dispose();
@@ -1812,19 +3303,1421 @@ Color corSelecionada = null;
 
     }//GEN-LAST:event_btntesteMouseClicked
 
+    private void btn4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn4MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn4MouseEntered
+
+    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn4ActionPerformed
+
+    private void btn7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn7MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn7MouseEntered
+
+    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn7ActionPerformed
+
+    private void btn8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn8MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn8MouseEntered
+
+    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn8ActionPerformed
+
+    private void btn9MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn9MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn9MouseEntered
+
+    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn9ActionPerformed
+
+    private void btn10MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn10MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn10MouseEntered
+
+    private void btn10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn10ActionPerformed
+
+    private void btn11MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn11MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn11MouseEntered
+
+    private void btn11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn11ActionPerformed
+
+    private void btn12MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn12MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn12MouseEntered
+
+    private void btn12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn12ActionPerformed
+
+    private void btn13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn13MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn13MouseEntered
+
+    private void btn13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn13ActionPerformed
+
+    private void btn14MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn14MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn14MouseEntered
+
+    private void btn14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn14ActionPerformed
+
+    private void btn15MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn15MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn15MouseEntered
+
+    private void btn15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn15ActionPerformed
+
+    private void btn16MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn16MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn16MouseEntered
+
+    private void btn16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn16ActionPerformed
+
+    private void btn17MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn17MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn17MouseEntered
+
+    private void btn17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn17ActionPerformed
+
+    private void btn18MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn18MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn18MouseEntered
+
+    private void btn18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn18ActionPerformed
+
+    private void btn19MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn19MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn19MouseEntered
+
+    private void btn19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn19ActionPerformed
+
+    private void btn20MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn20MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn20MouseEntered
+
+    private void btn20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn20ActionPerformed
+
+    private void btn21MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn21MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn21MouseEntered
+
+    private void btn21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn21ActionPerformed
+
+    private void btn22MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn22MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn22MouseEntered
+
+    private void btn22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn22ActionPerformed
+
+    private void btn23MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn23MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn23MouseEntered
+
+    private void btn23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn23ActionPerformed
+
+    private void btn24MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn24MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn24MouseEntered
+
+    private void btn24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn24ActionPerformed
+
+    private void btn25MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn25MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn25MouseEntered
+
+    private void btn25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn25ActionPerformed
+
+    private void btn26MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn26MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn26MouseEntered
+
+    private void btn26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn26ActionPerformed
+
+    private void btn27MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn27MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn27MouseEntered
+
+    private void btn27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn27ActionPerformed
+
+    private void btn28MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn28MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn28MouseEntered
+
+    private void btn28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn28ActionPerformed
+
+    private void btn29MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn29MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn29MouseEntered
+
+    private void btn29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn29ActionPerformed
+
+    private void btn30MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn30MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn30MouseEntered
+
+    private void btn30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn30ActionPerformed
+
+    private void btn31MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn31MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn31MouseEntered
+
+    private void btn31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn31ActionPerformed
+
+    private void btn32MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn32MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn32MouseEntered
+
+    private void btn32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn32ActionPerformed
+
+    private void btn33MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn33MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn33MouseEntered
+
+    private void btn33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn33ActionPerformed
+
+    private void btn34MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn34MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn34MouseEntered
+
+    private void btn34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn34ActionPerformed
+
+    private void btn35MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn35MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn35MouseEntered
+
+    private void btn35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn35ActionPerformed
+
+    private void btn36MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn36MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn36MouseEntered
+
+    private void btn36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn36ActionPerformed
+
+    private void btn37MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn37MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn37MouseEntered
+
+    private void btn37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn37ActionPerformed
+
+    private void btn38MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn38MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn38MouseEntered
+
+    private void btn38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn38ActionPerformed
+
+    private void btn39MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn39MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn39MouseEntered
+
+    private void btn39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn39ActionPerformed
+
+    private void btn40MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn40MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn40MouseEntered
+
+    private void btn40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn40ActionPerformed
+
+    private void btn41MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn41MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn41MouseEntered
+
+    private void btn41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn41ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn41ActionPerformed
+
+    private void btn42MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn42MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn42MouseEntered
+
+    private void btn42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn42ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn42ActionPerformed
+
+    private void btn43MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn43MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn43MouseEntered
+
+    private void btn43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn43ActionPerformed
+
+    private void btn44MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn44MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn44MouseEntered
+
+    private void btn44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn44ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn44ActionPerformed
+
+    private void btn45MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn45MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn45MouseEntered
+
+    private void btn45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn45ActionPerformed
+
+    private void btn46MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn46MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn46MouseEntered
+
+    private void btn46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn46ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn46ActionPerformed
+
+    private void btn47MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn47MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn47MouseEntered
+
+    private void btn47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn47ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn47ActionPerformed
+
+    private void btn48MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn48MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn48MouseEntered
+
+    private void btn48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn48ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn48ActionPerformed
+
+    private void btn49MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn49MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn49MouseEntered
+
+    private void btn49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn49ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn49ActionPerformed
+
+    private void btn50MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn50MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn50MouseEntered
+
+    private void btn50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn50ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn50ActionPerformed
+
+    private void btn51MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn51MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn51MouseEntered
+
+    private void btn51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn51ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn51ActionPerformed
+
+    private void btn52MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn52MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn52MouseEntered
+
+    private void btn52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn52ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn52ActionPerformed
+
+    private void btn53MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn53MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn53MouseEntered
+
+    private void btn53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn53ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn53ActionPerformed
+
+    private void btn54MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn54MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn54MouseEntered
+
+    private void btn54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn54ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn54ActionPerformed
+
+    private void btn55MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn55MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn55MouseEntered
+
+    private void btn55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn55ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn55ActionPerformed
+
+    private void btn56MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn56MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn56MouseEntered
+
+    private void btn56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn56ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn56ActionPerformed
+
+    private void btn57MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn57MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn57MouseEntered
+
+    private void btn57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn57ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn57ActionPerformed
+
+    private void btn58MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn58MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn58MouseEntered
+
+    private void btn58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn58ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn58ActionPerformed
+
+    private void btn59MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn59MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn59MouseEntered
+
+    private void btn59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn59ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn59ActionPerformed
+
+    private void btn60MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn60MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn60MouseEntered
+
+    private void btn60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn60ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn60ActionPerformed
+
+    private void btn61MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn61MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn61MouseEntered
+
+    private void btn61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn61ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn61ActionPerformed
+
+    private void btn62MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn62MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn62MouseEntered
+
+    private void btn62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn62ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn62ActionPerformed
+
+    private void btn63MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn63MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn63MouseEntered
+
+    private void btn63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn63ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn63ActionPerformed
+
+    private void btn64MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn64MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn64MouseEntered
+
+    private void btn64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn64ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn64ActionPerformed
+
+    private void btn65MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn65MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn65MouseEntered
+
+    private void btn65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn65ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn65ActionPerformed
+
+    private void btn66MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn66MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn66MouseEntered
+
+    private void btn66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn66ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn66ActionPerformed
+
+    private void btn67MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn67MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn67MouseEntered
+
+    private void btn67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn67ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn67ActionPerformed
+
+    private void btn68MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn68MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn68MouseEntered
+
+    private void btn68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn68ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn68ActionPerformed
+
+    private void btn69MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn69MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn69MouseEntered
+
+    private void btn69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn69ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn69ActionPerformed
+
+    private void btn73MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn73MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn73MouseEntered
+
+    private void btn73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn73ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn73ActionPerformed
+
+    private void btn74MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn74MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn74MouseEntered
+
+    private void btn74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn74ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn74ActionPerformed
+
+    private void btn75MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn75MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn75MouseEntered
+
+    private void btn75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn75ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn75ActionPerformed
+
+    private void btn76MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn76MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn76MouseEntered
+
+    private void btn76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn76ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn76ActionPerformed
+
+    private void btn77MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn77MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn77MouseEntered
+
+    private void btn77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn77ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn77ActionPerformed
+
+    private void btn78MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn78MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn78MouseEntered
+
+    private void btn78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn78ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn78ActionPerformed
+
+    private void btn79MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn79MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn79MouseEntered
+
+    private void btn79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn79ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn79ActionPerformed
+
+    private void btn80MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn80MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn80MouseEntered
+
+    private void btn80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn80ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn80ActionPerformed
+
+    private void btn81MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn81MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn81MouseEntered
+
+    private void btn81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn81ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn81ActionPerformed
+
+    private void btn82MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn82MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn82MouseEntered
+
+    private void btn82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn82ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn82ActionPerformed
+
+    private void btn83MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn83MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn83MouseEntered
+
+    private void btn83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn83ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn83ActionPerformed
+
+    private void btn84MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn84MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn84MouseEntered
+
+    private void btn84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn84ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn84ActionPerformed
+
+    private void btn85MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn85MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn85MouseEntered
+
+    private void btn85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn85ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn85ActionPerformed
+
+    private void btn86MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn86MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn86MouseEntered
+
+    private void btn86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn86ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn86ActionPerformed
+
+    private void btn87MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn87MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn87MouseEntered
+
+    private void btn87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn87ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn87ActionPerformed
+
+    private void btn88MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn88MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn88MouseEntered
+
+    private void btn88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn88ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn88ActionPerformed
+
+    private void btn89MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn89MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn89MouseEntered
+
+    private void btn89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn89ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn89ActionPerformed
+
+    private void btn90MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn90MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn90MouseEntered
+
+    private void btn90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn90ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn90ActionPerformed
+
+    private void btn91MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn91MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn91MouseEntered
+
+    private void btn91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn91ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn91ActionPerformed
+
+    private void btn92MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn92MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn92MouseEntered
+
+    private void btn92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn92ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn92ActionPerformed
+
+    private void btn93MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn93MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn93MouseEntered
+
+    private void btn93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn93ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn93ActionPerformed
+
+    private void btn101MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn101MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn101MouseEntered
+
+    private void btn101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn101ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn101ActionPerformed
+
+    private void btn102MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn102MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn102MouseEntered
+
+    private void btn102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn102ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn102ActionPerformed
+
+    private void btn103MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn103MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn103MouseEntered
+
+    private void btn103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn103ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn103ActionPerformed
+
+    private void btn104MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn104MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn104MouseEntered
+
+    private void btn104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn104ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn104ActionPerformed
+
+    private void btn105MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn105MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn105MouseEntered
+
+    private void btn105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn105ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn105ActionPerformed
+
+    private void btn106MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn106MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn106MouseEntered
+
+    private void btn106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn106ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn106ActionPerformed
+
+    private void btn107MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn107MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn107MouseEntered
+
+    private void btn107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn107ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn107ActionPerformed
+
+    private void btn108MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn108MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn108MouseEntered
+
+    private void btn108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn108ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn108ActionPerformed
+
+    private void btn109MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn109MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn109MouseEntered
+
+    private void btn109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn109ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn109ActionPerformed
+
+    private void btn110MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn110MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn110MouseEntered
+
+    private void btn110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn110ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn110ActionPerformed
+
+    private void btn111MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn111MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn111MouseEntered
+
+    private void btn111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn111ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn111ActionPerformed
+
+    private void btn112MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn112MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn112MouseEntered
+
+    private void btn112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn112ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn112ActionPerformed
+
+    private void btn113MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn113MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn113MouseEntered
+
+    private void btn113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn113ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn113ActionPerformed
+
+    private void btn114MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn114MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn114MouseEntered
+
+    private void btn114ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn114ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn114ActionPerformed
+
+    private void btn115MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn115MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn115MouseEntered
+
+    private void btn115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn115ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn115ActionPerformed
+
+    private void btn116MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn116MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn116MouseEntered
+
+    private void btn116ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn116ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn116ActionPerformed
+
+    private void btn117MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn117MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn117MouseEntered
+
+    private void btn117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn117ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn117ActionPerformed
+
+    private void btn118MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn118MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn118MouseEntered
+
+    private void btn118ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn118ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn118ActionPerformed
+
+    private void btn119MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn119MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn119MouseEntered
+
+    private void btn119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn119ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn119ActionPerformed
+
+    private void btn120MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn120MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn120MouseEntered
+
+    private void btn120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn120ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn120ActionPerformed
+
+    private void btn121MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn121MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn121MouseEntered
+
+    private void btn121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn121ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn121ActionPerformed
+
+    private void btn122MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn122MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn122MouseEntered
+
+    private void btn122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn122ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn122ActionPerformed
+
+    private void btn123MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn123MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn123MouseEntered
+
+    private void btn123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn123ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn123ActionPerformed
+
+    private void btn124MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn124MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn124MouseEntered
+
+    private void btn124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn124ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn124ActionPerformed
+
+    private void btn125MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn125MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn125MouseEntered
+
+    private void btn125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn125ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn125ActionPerformed
+
+    private void btn126MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn126MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn126MouseEntered
+
+    private void btn126ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn126ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn126ActionPerformed
+
+    private void btn127MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn127MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn127MouseEntered
+
+    private void btn127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn127ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn127ActionPerformed
+
+    private void btn128MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn128MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn128MouseEntered
+
+    private void btn128ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn128ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn128ActionPerformed
+
+    private void btn129MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn129MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn129MouseEntered
+
+    private void btn129ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn129ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn129ActionPerformed
+
+    private void btn130MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn130MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn130MouseEntered
+
+    private void btn130ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn130ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn130ActionPerformed
+
+    private void btn131MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn131MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn131MouseEntered
+
+    private void btn131ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn131ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn131ActionPerformed
+
+    private void btn132MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn132MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn132MouseEntered
+
+    private void btn132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn132ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn132ActionPerformed
+
+    private void btn133MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn133MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn133MouseEntered
+
+    private void btn133ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn133ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn133ActionPerformed
+
+    private void btn134MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn134MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn134MouseEntered
+
+    private void btn134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn134ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn134ActionPerformed
+
+    private void btn135MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn135MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn135MouseEntered
+
+    private void btn135ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn135ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn135ActionPerformed
+
+    private void btn136MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn136MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn136MouseEntered
+
+    private void btn136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn136ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn136ActionPerformed
+
+    private void btn137MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn137MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn137MouseEntered
+
+    private void btn137ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn137ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn137ActionPerformed
+
+    private void btn138MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn138MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn138MouseEntered
+
+    private void btn138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn138ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn138ActionPerformed
+
+    private void btn139MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn139MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn139MouseEntered
+
+    private void btn139ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn139ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn139ActionPerformed
+
+    private void btn140MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn140MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn140MouseEntered
+
+    private void btn140ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn140ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn140ActionPerformed
+
+    private void btn141MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn141MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn141MouseEntered
+
+    private void btn141ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn141ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn141ActionPerformed
+
+    private void btn142MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn142MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn142MouseEntered
+
+    private void btn142ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn142ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn142ActionPerformed
+
+    private void btn143MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn143MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn143MouseEntered
+
+    private void btn143ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn143ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn143ActionPerformed
+
+    private void btn144MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn144MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn144MouseEntered
+
+    private void btn144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn144ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn144ActionPerformed
+
+    private void btn145MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn145MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn145MouseEntered
+
+    private void btn145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn145ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn145ActionPerformed
+
+    private void btn146MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn146MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn146MouseEntered
+
+    private void btn146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn146ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn146ActionPerformed
+
+    private void btn147MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn147MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn147MouseEntered
+
+    private void btn147ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn147ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn147ActionPerformed
+
+    private void btn148MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn148MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn148MouseEntered
+
+    private void btn148ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn148ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn148ActionPerformed
+
+    private void btn149MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn149MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn149MouseEntered
+
+    private void btn149ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn149ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn149ActionPerformed
+
+    private void btn150MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn150MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn150MouseEntered
+
+    private void btn150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn150ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn150ActionPerformed
+
+    private void btn151MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn151MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn151MouseEntered
+
+    private void btn151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn151ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn151ActionPerformed
+
+    private void btn152MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn152MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn152MouseEntered
+
+    private void btn152ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn152ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn152ActionPerformed
+
+    private void btn153MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn153MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn153MouseEntered
+
+    private void btn153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn153ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn153ActionPerformed
+
+    private void btn154MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn154MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn154MouseEntered
+
+    private void btn154ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn154ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn154ActionPerformed
+
+    private void btn155MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn155MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn155MouseEntered
+
+    private void btn155ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn155ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn155ActionPerformed
+
+    private void btn156MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn156MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn156MouseEntered
+
+    private void btn156ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn156ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn156ActionPerformed
+
+    private void btn157MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn157MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn157MouseEntered
+
+    private void btn157ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn157ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn157ActionPerformed
+
+    private void btn158MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn158MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn158MouseEntered
+
+    private void btn158ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn158ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn158ActionPerformed
+
+    private void btn159MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn159MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn159MouseEntered
+
+    private void btn159ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn159ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn159ActionPerformed
+
+    private void btn160MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn160MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn160MouseEntered
+
+    private void btn160ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn160ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn160ActionPerformed
+
+    private void btn161MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn161MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn161MouseEntered
+
+    private void btn161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn161ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn161ActionPerformed
+
+    private void btn162MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn162MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn162MouseEntered
+
+    private void btn162ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn162ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn162ActionPerformed
+
+    private void btn163MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn163MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn163MouseEntered
+
+    private void btn163ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn163ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn163ActionPerformed
+
+    private void btn164MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn164MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn164MouseEntered
+
+    private void btn164ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn164ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn164ActionPerformed
+
+    private void btn165MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn165MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn165MouseEntered
+
+    private void btn165ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn165ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn165ActionPerformed
+
+    private void btn166MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn166MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn166MouseEntered
+
+    private void btn166ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn166ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn166ActionPerformed
+
+    private void btn167MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn167MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn167MouseEntered
+
+    private void btn167ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn167ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn167ActionPerformed
+
+    private void btn168MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn168MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn168MouseEntered
+
+    private void btn168ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn168ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn168ActionPerformed
+
+    private void btn169MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn169MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn169MouseEntered
+
+    private void btn169ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn169ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn169ActionPerformed
+
+    private void btn170MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn170MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn170MouseEntered
+
+    private void btn170ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn170ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn170ActionPerformed
+
+    private void btn171MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn171MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn171MouseEntered
+
+    private void btn171ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn171ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn171ActionPerformed
+
+    private void btn172MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn172MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn172MouseEntered
+
+    private void btn172ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn172ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn172ActionPerformed
+
+    private void btn173MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn173MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn173MouseEntered
+
+    private void btn173ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn173ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn173ActionPerformed
+
+    private void btn174MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn174MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn174MouseEntered
+
+    private void btn174ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn174ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn174ActionPerformed
+
+    private void btn175MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn175MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn175MouseEntered
+
+    private void btn175ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn175ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn175ActionPerformed
+
+    private void btn176MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn176MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn176MouseEntered
+
+    private void btn176ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn176ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn176ActionPerformed
+
+    private void btn177MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn177MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn177MouseEntered
+
+    private void btn177ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn177ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn177ActionPerformed
+
+    private void btn178MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn178MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn178MouseEntered
+
+    private void btn178ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn178ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn178ActionPerformed
+
+    private void btn179MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn179MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn179MouseEntered
+
+    private void btn179ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn179ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn179ActionPerformed
+
+    private void btn180MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn180MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn180MouseEntered
+
+    private void btn180ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn180ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn180ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn1;
     private javax.swing.JButton btn10;
+    private javax.swing.JButton btn100;
+    private javax.swing.JButton btn101;
+    private javax.swing.JButton btn102;
+    private javax.swing.JButton btn103;
+    private javax.swing.JButton btn104;
+    private javax.swing.JButton btn105;
+    private javax.swing.JButton btn106;
+    private javax.swing.JButton btn107;
+    private javax.swing.JButton btn108;
+    private javax.swing.JButton btn109;
     private javax.swing.JButton btn11;
+    private javax.swing.JButton btn110;
+    private javax.swing.JButton btn111;
+    private javax.swing.JButton btn112;
+    private javax.swing.JButton btn113;
+    private javax.swing.JButton btn114;
+    private javax.swing.JButton btn115;
+    private javax.swing.JButton btn116;
+    private javax.swing.JButton btn117;
+    private javax.swing.JButton btn118;
+    private javax.swing.JButton btn119;
     private javax.swing.JButton btn12;
+    private javax.swing.JButton btn120;
+    private javax.swing.JButton btn121;
+    private javax.swing.JButton btn122;
+    private javax.swing.JButton btn123;
+    private javax.swing.JButton btn124;
+    private javax.swing.JButton btn125;
+    private javax.swing.JButton btn126;
+    private javax.swing.JButton btn127;
+    private javax.swing.JButton btn128;
+    private javax.swing.JButton btn129;
     private javax.swing.JButton btn13;
+    private javax.swing.JButton btn130;
+    private javax.swing.JButton btn131;
+    private javax.swing.JButton btn132;
+    private javax.swing.JButton btn133;
+    private javax.swing.JButton btn134;
+    private javax.swing.JButton btn135;
+    private javax.swing.JButton btn136;
+    private javax.swing.JButton btn137;
+    private javax.swing.JButton btn138;
+    private javax.swing.JButton btn139;
     private javax.swing.JButton btn14;
+    private javax.swing.JButton btn140;
+    private javax.swing.JButton btn141;
+    private javax.swing.JButton btn142;
+    private javax.swing.JButton btn143;
+    private javax.swing.JButton btn144;
+    private javax.swing.JButton btn145;
+    private javax.swing.JButton btn146;
+    private javax.swing.JButton btn147;
+    private javax.swing.JButton btn148;
+    private javax.swing.JButton btn149;
     private javax.swing.JButton btn15;
+    private javax.swing.JButton btn150;
+    private javax.swing.JButton btn151;
+    private javax.swing.JButton btn152;
+    private javax.swing.JButton btn153;
+    private javax.swing.JButton btn154;
+    private javax.swing.JButton btn155;
+    private javax.swing.JButton btn156;
+    private javax.swing.JButton btn157;
+    private javax.swing.JButton btn158;
+    private javax.swing.JButton btn159;
     private javax.swing.JButton btn16;
+    private javax.swing.JButton btn160;
+    private javax.swing.JButton btn161;
+    private javax.swing.JButton btn162;
+    private javax.swing.JButton btn163;
+    private javax.swing.JButton btn164;
+    private javax.swing.JButton btn165;
+    private javax.swing.JButton btn166;
+    private javax.swing.JButton btn167;
+    private javax.swing.JButton btn168;
+    private javax.swing.JButton btn169;
     private javax.swing.JButton btn17;
+    private javax.swing.JButton btn170;
+    private javax.swing.JButton btn171;
+    private javax.swing.JButton btn172;
+    private javax.swing.JButton btn173;
+    private javax.swing.JButton btn174;
+    private javax.swing.JButton btn175;
+    private javax.swing.JButton btn176;
+    private javax.swing.JButton btn177;
+    private javax.swing.JButton btn178;
+    private javax.swing.JButton btn179;
     private javax.swing.JButton btn18;
+    private javax.swing.JButton btn180;
     private javax.swing.JButton btn19;
+    private javax.swing.JButton btn2;
     private javax.swing.JButton btn20;
     private javax.swing.JButton btn21;
     private javax.swing.JButton btn22;
@@ -1881,6 +4774,8 @@ Color corSelecionada = null;
     private javax.swing.JButton btn69;
     private javax.swing.JButton btn7;
     private javax.swing.JButton btn70;
+    private javax.swing.JButton btn71;
+    private javax.swing.JButton btn72;
     private javax.swing.JButton btn73;
     private javax.swing.JButton btn74;
     private javax.swing.JButton btn75;
@@ -1904,7 +4799,48 @@ Color corSelecionada = null;
     private javax.swing.JButton btn91;
     private javax.swing.JButton btn92;
     private javax.swing.JButton btn93;
+    private javax.swing.JButton btn94;
+    private javax.swing.JButton btn95;
+    private javax.swing.JButton btn96;
+    private javax.swing.JButton btn97;
+    private javax.swing.JButton btn98;
+    private javax.swing.JButton btn99;
     private javax.swing.JPanel btnteste;
+    private javax.swing.JPanel btnteste1;
+    private javax.swing.JPanel btnteste2;
     private javax.swing.JComboBox<String> comboBoxCores;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }

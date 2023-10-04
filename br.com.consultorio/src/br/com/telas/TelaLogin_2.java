@@ -22,7 +22,7 @@ public class TelaLogin_2 extends javax.swing.JFrame {
     private void chamado_control_logar() {
         Login_control x = new Login_control();
         x.receber_model();
-        this.dispose();
+        
         //System.out.println(x.usu);
 
     }

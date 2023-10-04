@@ -45,7 +45,8 @@ public class Login_control {
             principal.setVisible(true);
             
         }else{
-             JOptionPane.showMessageDialog(null, "Usuário e/ou senha não correspondentes");
+              JOptionPane.showMessageDialog(null, "Usuário e/ou senha não correspondentes", "Erro de Login", JOptionPane.ERROR_MESSAGE);
+             
         }
     }
 
